@@ -1,0 +1,517 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "label": "Sello",
+    "publishing": "Editorial",
+    "launchpad": "LAUNCHPAD",
+    "explore": "Explorar",
+    "contact": "Contacto",
+    "apply": "Aplicar",
+    "back": "Volver"
+  },
+  "home": {
+    "hero": {
+      "title": "Dando Forma a la Cultura a Través de la Música",
+      "subtitle": "Sello Discográfico y Editorial Musical",
+      "description": "Somos Rocket Science. Una potencia de la industria musical comprometida con la creatividad y la innovación, empoderando a artistas y compositores para alcanzar su máximo potencial a nivel mundial.",
+      "cta": "Envía Tu Música",
+      "exploreServices": "Explorar Servicios",
+      "launchpadPlatform": "Plataforma LAUNCHPAD"
+    },
+    "label": {
+      "title": "Rocket Science Music Group",
+      "description": "Identificamos y desarrollamos a los artistas emergentes más creativos e innovadores, produciendo y distribuyendo música que rompe barreras y desafía convenciones. Nuestro compromiso con la libertad artística y la innovación ayuda a dar forma al futuro de la música.",
+      "artistDev": {
+        "title": "Desarrollo Artístico",
+        "subtitle": "Desde talentos emergentes hasta estrellas establecidas",
+        "features": [
+          "A&R y búsqueda de talentos",
+          "Dirección creativa y branding",
+          "Planificación de estrategia de carrera",
+          "Apoyo de gira y eventos en vivo"
+        ]
+      },
+      "production": {
+        "title": "Producción",
+        "subtitle": "Servicios de grabación y creativos de clase mundial",
+        "features": [
+          "Financiamiento de grabación y producción",
+          "Acceso a los mejores productores y estudios",
+          "Facilitación de colaboración creativa",
+          "Creación de contenido audiovisual"
+        ]
+      },
+      "distribution": {
+        "title": "Distribución Global",
+        "subtitle": "Física y digital, llegando a fans en todas partes",
+        "features": [
+          "Distribución digital mundial",
+          "Campañas de marketing y promoción",
+          "Optimización de streaming",
+          "Asociaciones de marca"
+        ]
+      }
+    },
+    "publishing": {
+      "title": "Rocket Science Music Publishing",
+      "description": "Administración editorial galardonada que maximiza el valor de las composiciones musicales. Negociamos licencias mundiales, registramos adecuadamente con todas las organizaciones y garantizamos que los compositores y titulares de derechos reciban cada dólar que han ganado.",
+      "rights": {
+        "title": "Gestión de Derechos",
+        "subtitle": "Protegiendo y monetizando tu catálogo",
+        "features": [
+          "Registro global de derechos de autor",
+          "Administración de PRO y MRO",
+          "Optimización de metadatos",
+          "Gestión de activos del catálogo"
+        ]
+      },
+      "licensing": {
+        "title": "Licencias y Sincronización",
+        "subtitle": "Maximizando oportunidades en todos los medios",
+        "features": [
+          "Sincronización para cine, TV y publicidad",
+          "Juegos y medios digitales",
+          "Asociaciones de marca",
+          "Licencias de colaboración"
+        ]
+      },
+      "royalties": {
+        "title": "Cobro de Regalías",
+        "subtitle": "Seguimiento transparente y pagos puntuales",
+        "features": [
+          "Regalías de interpretación mundial",
+          "Cobro de regalías mecánicas",
+          "Derechos conexos",
+          "Reportes transparentes"
+        ]
+      }
+    },
+    "launchpad": {
+      "badge": "NUEVO SERVICIO",
+      "title": "Presentamos LAUNCHPAD",
+      "description": "Herramientas de distribución profesional para artistas independientes excepcionales, sellos y editores. Lleva tu música a más de 100 plataformas y registra composiciones con PROs en todo el mundo.",
+      "cta": "Explorar LAUNCHPAD"
+    },
+    "stats": {
+      "totalStreams": "Streams Totales",
+      "streamingRevenue": "Ingresos por Streaming Cobrados",
+      "dsp": "Proveedores de Servicios Digitales",
+      "publishingRevenue": "Ingresos Editoriales Cobrados"
+    },
+    "process": {
+      "title": "Proceso Simple",
+      "subtitle": "Del envío al éxito en tres pasos",
+      "steps": [
+        {
+          "title": "Envía Tu Proyecto",
+          "description": "Comparte tu música y visión con nuestro equipo A&R para evaluación."
+        },
+        {
+          "title": "Revisión Profesional",
+          "description": "Nuestros expertos analizan el potencial comercial y el ajuste estratégico."
+        },
+        {
+          "title": "Asociación Personalizada",
+          "description": "Creamos un enfoque personalizado basado en tus necesidades únicas."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para elevar tu carrera?",
+      "subtitle": "Únete a nuestro exclusivo roster de artistas y profesionales de la música excepcionales.",
+      "submitMusic": "Envía Tu Música",
+      "contactTeam": "Contacta a Nuestro Equipo"
+    }
+  },
+  "explore": {
+    "title": "Explora LAUNCHPAD",
+    "subtitle": "Herramientas de distribución profesional diseñadas exclusivamente para artistas, sellos y editores establecidos. Lleva tu música a más de 100 plataformas en todo el mundo manteniendo el control completo.",
+    "applyAccess": "Solicitar Acceso",
+    "clientLogin": "Portal de Clientes",
+    "whatIs": {
+      "title": "¿Qué es LAUNCHPAD?",
+      "description": "LAUNCHPAD es nuestra plataforma de distribución exclusiva diseñada para artistas y sellos profesionales. A diferencia de los distribuidores tradicionales, ofrecemos servicio personalizado, reportes transparentes y apoyo estratégico para ayudarte a maximizar el potencial de tu música."
+    },
+    "features": {
+      "fast": {
+        "title": "Distribución Rápida",
+        "subtitle": "Publica tu música en todas las plataformas principales rápidamente",
+        "items": [
+          "Procesamiento en 24-48 horas",
+          "Entrega directa a plataformas",
+          "Soporte prioritario",
+          "Opciones de lanzamiento urgente"
+        ]
+      },
+      "control": {
+        "title": "Control Completo",
+        "subtitle": "Mantén la propiedad mientras alcanzas audiencias globales",
+        "items": [
+          "Conserva el 100% de tus derechos",
+          "Establece tu propia estrategia de lanzamiento",
+          "Control flexible de precios",
+          "Gestión de territorios"
+        ]
+      },
+      "analytics": {
+        "title": "Analíticas Transparentes",
+        "subtitle": "Datos en tiempo real y reportes detallados",
+        "items": [
+          "Estadísticas de streaming en vivo",
+          "Desglose de ingresos",
+          "Seguimiento de playlists",
+          "Estados de cuenta mensuales"
+        ]
+      }
+    },
+    "platforms": {
+      "title": "Cobertura Global de Plataformas",
+      "subtitle": "Tu música disponible donde sea que tus fans estén escuchando",
+      "more": "Más de 100 plataformas adicionales incluyendo servicios regionales y especializados"
+    },
+    "pricing": {
+      "badge": "PRECIOS TRANSPARENTES",
+      "title": "Modelo de Comisión Simple",
+      "subtitle": "Sin tarifas iniciales, sin costos ocultos. Solo tenemos éxito cuando tú tienes éxito.",
+      "annual": "Tarifas de suscripción anual",
+      "perRelease": "Cargos por lanzamiento",
+      "codes": "Códigos UPC/ISRC",
+      "total": "Tu costo inicial total"
+    },
+    "whoUsesIt": {
+      "title": "¿Quién Usa LAUNCHPAD?",
+      "subtitle": "Diseñado para profesionales de la música que exigen excelencia",
+      "labels": {
+        "title": "Sellos Independientes",
+        "subtitle": "Gestiona múltiples artistas con herramientas de nivel empresarial",
+        "features": [
+          "Gestión de catálogo multi-artista",
+          "Herramientas de carga y edición masiva",
+          "Creación de cuentas de sub-sello",
+          "Reportes consolidados"
+        ]
+      },
+      "artists": {
+        "title": "Artistas Establecidos",
+        "subtitle": "Toma el control de tu carrera con herramientas profesionales",
+        "features": [
+          "Acceso directo a plataformas",
+          "Panel de analíticas en tiempo real",
+          "Herramientas de marketing y promoción",
+          "Soporte al cliente prioritario"
+        ]
+      }
+    },
+    "gettingStarted": {
+      "title": "Cómo Empezar",
+      "subtitle": "Únete a LAUNCHPAD en tres simples pasos",
+      "steps": [
+        {
+          "title": "Solicita Acceso",
+          "description": "Envía tu solicitud con enlaces a tu música y antecedentes profesionales."
+        },
+        {
+          "title": "Obtén la Aprobación",
+          "description": "Nuestro equipo revisa tu envío para asegurar que LAUNCHPAD sea la opción correcta."
+        },
+        {
+          "title": "Comienza a Distribuir",
+          "description": "Accede a tu panel y comienza a distribuir tu música en todo el mundo."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para tomar el control?",
+      "subtitle": "Únete al grupo exclusivo de artistas y sellos que usan LAUNCHPAD.",
+      "apply": "Solicitar LAUNCHPAD",
+      "contact": "Contacta a Nuestro Equipo"
+    }
+  },
+  "apply": {
+    "title": "Envía Tu Solicitud",
+    "subtitle": "Servicio exclusivo por invitación",
+    "description": "Para artistas, sellos, editores y managers establecidos",
+    "form": {
+      "serviceType": "TIPO DE SERVICIO",
+      "personalInfo": "Información Personal",
+      "fullName": "NOMBRE COMPLETO",
+      "email": "CORREO ELECTRÓNICO",
+      "entityName": "NOMBRE DEL SELLO O ARTISTA / BANDA",
+      "companyName": "NOMBRE DE LA EMPRESA / CATÁLOGO",
+      "role": "TU ROL",
+      "country": "PAÍS",
+      "content": "Tu Contenido",
+      "contentNote": "Al menos 2 requeridos",
+      "socialMedia": "Redes Sociales y Web",
+      "socialNote": "Al menos 1 requerido",
+      "submit": "ENVIAR SOLICITUD",
+      "submitting": "ENVIANDO...",
+      "successMessage": "Gracias por tu envío. Nuestro equipo revisará tu solicitud y te contactará si identificamos una oportunidad potencial.",
+      "errorMessage": "Hubo un error al enviar tu solicitud. Por favor intenta de nuevo.",
+      "disclaimer": "Al enviar este formulario, aceptas que nuestro equipo evaluará tu presentación para determinar el mejor camino a seguir. Te contactaremos si identificamos una oportunidad potencial."
+    }
+  },
+  "login": {
+    "title": "Portal de Clientes",
+    "subtitle": "Accede a tus lanzamientos y analíticas",
+    "email": "CORREO ELECTRÓNICO",
+    "password": "CONTRASEÑA",
+    "signIn": "INICIAR SESIÓN",
+    "signingIn": "INICIANDO SESIÓN...",
+    "noAccount": "¿No tienes una cuenta?",
+    "applyAccess": "Solicita acceso",
+    "forgotPassword": "¿Olvidaste tu contraseña?"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido de vuelta",
+    "overview": "Resumen",
+    "releases": "Lanzamientos",
+    "recordings": "Grabaciones",
+    "recordingsSubtitle": "Gestiona tus lanzamientos musicales y distribución",
+    "compositions": "Composiciones",
+    "analytics": "Analíticas",
+    "payments": "Pagos",
+    "earnings": "Ganancias",
+    "contracts": "Contratos",
+    "users": "Usuarios",
+    "settings": "Configuración",
+    "signOut": "Cerrar Sesión",
+    "loading": "Cargando...",
+    "newRelease": "Nuevo Lanzamiento",
+    "newReleaseDesc": "Envía un nuevo lanzamiento para distribución",
+    "registerComposition": "Registrar Composición",
+    "registerCompositionDesc": "Envía una nueva composición para editorial",
+    "viewAnalytics": "Ver Analíticas",
+    "viewAnalyticsDesc": "Rastrea tu rendimiento y ganancias",
+    "recentActivity": "Actividad Reciente",
+    "noActivity": "No hay actividad reciente para mostrar.",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta grabación?",
+    "searchRecordings": "Buscar grabaciones...",
+    "allStatus": "Todos los Estados",
+    "draft": "Borrador",
+    "submitted": "Enviado",
+    "approved": "Aprobado",
+    "released": "Lanzado",
+    "title": "Título",
+    "artist": "Artista",
+    "user": "Usuario",
+    "releaseDate": "Fecha de Lanzamiento",
+    "actions": "Acciones",
+    "noRecordings": "No se encontraron grabaciones",
+    "nav": {
+      "overview": "Resumen",
+      "releases": "Lanzamientos",
+      "compositions": "Composiciones",
+      "analytics": "Analíticas",
+      "payments": "Pagos",
+      "account": "Cuenta"
+    },
+    "stats": {
+      "totalReleases": "Total de Lanzamientos",
+      "totalStreams": "Total de Reproducciones",
+      "totalRevenue": "Ingresos Totales",
+      "lastPayment": "Último Pago"
+    },
+    "noReleases": "Aún no hay lanzamientos",
+    "createRelease": "Crear Primer Lanzamiento",
+    "release": "Lanzamiento",
+    "status": {
+      "released": "Lanzado",
+      "pending": "Pendiente",
+      "draft": "Borrador"
+    },
+    "view": "Ver",
+    "viewAllReleases": "Ver todos los lanzamientos",
+    "revenueChart": {
+      "title": "Tendencia de Ingresos",
+      "noData": "No hay datos de ingresos disponibles"
+    },
+    "topTracks": {
+      "title": "Canciones Más Populares",
+      "noData": "No hay datos de canciones disponibles",
+      "track": "Canción",
+      "streams": "Reproducciones",
+      "revenue": "Ingresos"
+    },
+    "filters": {
+      "all": "Todo",
+      "thisMonth": "Este Mes",
+      "lastMonth": "Mes Pasado",
+      "thisYear": "Este Año",
+      "custom": "Rango Personalizado"
+    }
+  },
+  "common": {
+    "loading": "Cargando..."
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Tienes preguntas sobre nuestros servicios? ¿Quieres discutir una posible colaboración? Nos encantaría saber de ti.",
+    "contactInfo": "Información de Contacto",
+    "email": "Correo Electrónico",
+    "location": "Ubicación",
+    "forArtists": "Para Artistas y Sellos",
+    "forArtistsDesc": "Si estás interesado en nuestros servicios de sello, editorial o distribución, por favor envía tu solicitud a través de nuestro proceso oficial.",
+    "form": {
+      "name": "NOMBRE",
+      "email": "CORREO ELECTRÓNICO",
+      "subject": "ASUNTO",
+      "message": "MENSAJE",
+      "selectSubject": "Selecciona un asunto",
+      "generalInquiry": "Consulta General",
+      "technicalSupport": "Soporte Técnico",
+      "businessPartnership": "Asociación Comercial",
+      "pressMedia": "Prensa y Medios",
+      "other": "Otro",
+      "sendMessage": "ENVIAR MENSAJE",
+      "sending": "ENVIANDO...",
+      "successMessage": "Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.",
+      "errorMessage": "Hubo un error al enviar tu mensaje. Por favor intenta de nuevo."
+    }
+  },
+  "footer": {
+    "description": "Desarrollo artístico para talentos excepcionales. Servicios de distribución y editorial para artistas y sellos establecidos.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "copyright": "© 2025 Rocket Science Music Group & Rocket Science Music Publishing Group LLC. Todos los derechos reservados."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización",
+    "sections": {
+      "intro": "En Rocket Science LLC, tomamos su privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información.",
+      "dataCollection": "Información que Recopilamos",
+      "dataUse": "Cómo Usamos su Información",
+      "dataSharing": "Cómo Compartimos su Información",
+      "dataSecurity": "Seguridad de Datos",
+      "yourRights": "Sus Derechos",
+      "contact": "Contáctenos"
+    }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "subtitle": "Términos de Distribución Digital",
+    "lastUpdated": "Última actualización",
+    "acceptanceText": "Al enviar su Contenido, el Cliente acepta estos términos y condiciones."
+  },
+  "admin": {
+    "portal": "PORTAL ADMINISTRATIVO",
+    "dashboard": {
+      "title": "Panel Administrativo",
+      "overview": "Resumen",
+      "users": "Usuarios",
+      "releases": "Lanzamientos",
+      "payments": "Pagos",
+      "contracts": "Contratos",
+      "analytics": "Analíticas",
+      "settings": "Configuración",
+      "totalUsers": "Total de Usuarios",
+      "activeClients": "Clientes activos",
+      "totalReleases": "Total de Lanzamientos",
+      "distributedTracks": "Pistas distribuidas",
+      "totalRevenue": "Ingresos Totales",
+      "allTime": "Todo el tiempo",
+      "pendingPayments": "Pagos Pendientes",
+      "toBeProcessed": "Por procesar",
+      "recentActivity": "Actividad Reciente",
+      "allUsers": "Todos los Usuarios",
+      "addUser": "Agregar Usuario",
+      "allReleases": "Todos los Lanzamientos",
+      "export": "Exportar",
+      "search": "Buscar...",
+      "name": "Nombre",
+      "entity": "Entidad",
+      "services": "Servicios",
+      "joined": "Se unió",
+      "actions": "Acciones",
+      "release": "Lanzamiento",
+      "artist": "Artista",
+      "releaseDate": "Fecha de Lanzamiento",
+      "status": "Estado",
+      "platforms": "Plataformas",
+      "live": "En vivo",
+      "pending": "Pendiente",
+      "activityFeed": "Feed de actividad próximamente..."
+    },
+    "userForm": {
+      "createUser": "Crear Nuevo Usuario",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "generate": "Generar",
+      "fullName": "Nombre Completo",
+      "entityName": "Nombre de Entidad",
+      "services": "Servicios",
+      "cancel": "Cancelar",
+      "create": "Crear Usuario",
+      "successMessage": "¡Usuario creado exitosamente!",
+      "errorMessage": "Error al crear usuario"
+    }
+  },
+  "backToReleases": "Volver a Lanzamientos",
+  "newRelease": "Nuevo Lanzamiento",
+  "releaseInformation": "Información del Lanzamiento",
+  "releaseTitle": "Título del Lanzamiento",
+  "primaryArtist": "Artista Principal",
+  "label": "Sello",
+  "releaseDate": "Fecha de Lanzamiento",
+  "genre": "Género",
+  "selectGenre": "Seleccionar Género",
+  "language": "Idioma",
+  "selectLanguage": "Seleccionar Idioma",
+  "explicitContent": "Contenido Explícito",
+  "coverArtwork": "Portada",
+  "uploadImage": "Subir Imagen",
+  "imageRequirements": "3000x3000px, JPG o PNG, máx 10MB",
+  "tracks": "Pistas",
+  "addTrack": "Agregar Pista",
+  "track": "Pista",
+  "trackTitle": "Título de la Pista",
+  "trackArtist": "Artista de la Pista",
+  "duration": "Duración",
+  "isrc": "ISRC",
+  "cancel": "Cancelar",
+  "saveRelease": "Guardar Lanzamiento",
+  "saving": "Guardando...",
+  "backToCompositions": "Volver a Composiciones",
+  "registerComposition": "Registrar Composición",
+  "compositionInformation": "Información de la Composición",
+  "compositionTitle": "Título de la Composición",
+  "iswc": "ISWC",
+  "optional": "Opcional",
+  "iswcHelp": "Código Internacional Normalizado para Obras Musicales",
+  "writers": "Escritores",
+  "addWriter": "Agregar Escritor",
+  "writerName": "Nombre del Escritor",
+  "writerNamePlaceholder": "Ingrese el nombre completo del escritor",
+  "writersHelp": "Agregue todos los escritores/compositores que contribuyeron a esta composición",
+  "additionalInfo": "Información Adicional",
+  "compositionRegistrationInfo1": "Una vez registrada, su composición será enviada a las organizaciones de derechos de ejecución (PRO) para la recaudación de regalías.",
+  "compositionRegistrationInfo2": "Asegúrese de que toda la información del escritor sea precisa, ya que se utilizará para la distribución de regalías.",
+  "compositionRegistrationInfo3": "Se le notificará una vez que se complete el registro de su composición.",
+  "registering": "Registrando...",
+  "saveSuccess": "Configuración guardada exitosamente",
+  "saveError": "Error al guardar configuración",
+  "settingsSubtitle": "Administra tu configuración de cuenta",
+  "profileInfo": "Información del Perfil",
+  "fullName": "Nombre Completo",
+  "email": "Correo Electrónico",
+  "phoneNumber": "Número de Teléfono",
+  "companyName": "Nombre de Empresa",
+  "optional": "Opcional",
+  "viewAll": "Ver Todo",
+  "contractsDesc": "Administra tus contratos",
+  "paymentInfo": "Información de Pago",
+  "taxId": "ID Fiscal",
+  "taxIdPlaceholder": "Ingresa ID fiscal",
+  "paymentNote": "Los detalles de pago se usarán para pagos de regalías",
+  "security": "Seguridad",
+  "changePassword": "Cambiar Contraseña",
+  "enable2fa": "Habilitar Autenticación de Dos Factores",
+  "saving": "Guardando...",
+  "saveChanges": "Guardar Cambios"
+}

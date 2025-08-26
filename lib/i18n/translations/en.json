@@ -1,0 +1,517 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "label": "Label",
+    "publishing": "Publishing",
+    "launchpad": "LAUNCHPAD",
+    "explore": "Explore",
+    "contact": "Contact",
+    "apply": "Apply",
+    "back": "Back"
+  },
+  "home": {
+    "hero": {
+      "title": "Shaping Culture Through Music",
+      "subtitle": "Record Label & Music Publishing",
+      "description": "We are Rocket Science. A music industry powerhouse committed to creativity and innovation, empowering artists and songwriters to reach their full potential globally.",
+      "cta": "Submit Your Music",
+      "exploreServices": "Explore Services",
+      "launchpadPlatform": "LAUNCHPAD Platform"
+    },
+    "label": {
+      "title": "Rocket Science Music Group",
+      "description": "We identify and develop the most creative and innovative emerging artists, producing and distributing music that pushes boundaries and challenges conventions. Our commitment to artistic freedom and innovation helps shape the future of music.",
+      "artistDev": {
+        "title": "Artist Development",
+        "subtitle": "From emerging talent to established stars",
+        "features": [
+          "A&R and talent scouting",
+          "Creative direction & branding",
+          "Career strategy planning",
+          "Tour support and live events"
+        ]
+      },
+      "production": {
+        "title": "Production",
+        "subtitle": "World-class recording and creative services",
+        "features": [
+          "Recording & production financing",
+          "Access to top producers & studios",
+          "Creative collaboration facilitation",
+          "Audio/visual content creation"
+        ]
+      },
+      "distribution": {
+        "title": "Global Distribution",
+        "subtitle": "Physical and digital, reaching fans everywhere",
+        "features": [
+          "Worldwide digital distribution",
+          "Marketing & promotion campaigns",
+          "Streaming optimization",
+          "Brand partnerships"
+        ]
+      }
+    },
+    "publishing": {
+      "title": "Rocket Science Music Publishing",
+      "description": "Award-winning publishing administration maximizing the value of musical compositions. We negotiate worldwide licenses, properly register with all organizations, and ensure songwriters and copyright holders receive every dollar they've earned.",
+      "rights": {
+        "title": "Rights Management",
+        "subtitle": "Protecting and monetizing your catalog",
+        "features": [
+          "Global copyright registration",
+          "PRO & MRO administration",
+          "Metadata optimization",
+          "Catalog asset management"
+        ]
+      },
+      "licensing": {
+        "title": "Licensing & Sync",
+        "subtitle": "Maximizing opportunities across all media",
+        "features": [
+          "Film, TV & advertising sync",
+          "Gaming & digital media",
+          "Brand partnerships",
+          "Collaboration licenses"
+        ]
+      },
+      "royalties": {
+        "title": "Royalty Collection",
+        "subtitle": "Transparent tracking and timely payments",
+        "features": [
+          "Performance royalties worldwide",
+          "Mechanical royalty collection",
+          "Neighboring rights",
+          "Transparent reporting"
+        ]
+      }
+    },
+    "launchpad": {
+      "badge": "NEW SERVICE",
+      "title": "Introducing LAUNCHPAD",
+      "description": "Professional distribution tools for exceptional independent artists, labels, and publishers. Get your music on 100+ platforms and register compositions with PROs worldwide.",
+      "cta": "Explore LAUNCHPAD"
+    },
+    "stats": {
+      "totalStreams": "Total Streams",
+      "streamingRevenue": "Streaming Revenue Collected",
+      "dsp": "Digital Service Providers",
+      "publishingRevenue": "Publishing Revenue Collected"
+    },
+    "process": {
+      "title": "Simple Process",
+      "subtitle": "From submission to success in three steps",
+      "steps": [
+        {
+          "title": "Submit Your Project",
+          "description": "Share your music and vision with our A&R team for evaluation."
+        },
+        {
+          "title": "Professional Review",
+          "description": "Our experts analyze commercial potential and strategic fit."
+        },
+        {
+          "title": "Tailored Partnership",
+          "description": "We craft a custom approach based on your unique needs."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to elevate your career?",
+      "subtitle": "Join our exclusive roster of exceptional artists and music professionals.",
+      "submitMusic": "Submit Your Music",
+      "contactTeam": "Contact Our Team"
+    }
+  },
+  "explore": {
+    "title": "Explore LAUNCHPAD",
+    "subtitle": "Professional distribution tools designed exclusively for established artists, labels, and publishers. Get your music on 100+ platforms worldwide while maintaining complete control.",
+    "applyAccess": "Apply for Access",
+    "clientLogin": "Client Login",
+    "whatIs": {
+      "title": "What is LAUNCHPAD?",
+      "description": "LAUNCHPAD is our exclusive distribution platform designed for professional artists and labels. Unlike traditional distributors, we offer personalized service, transparent reporting, and strategic support to help you maximize your music's potential."
+    },
+    "features": {
+      "fast": {
+        "title": "Fast Distribution",
+        "subtitle": "Get your music live on all major platforms quickly",
+        "items": [
+          "24-48 hour processing",
+          "Direct platform delivery",
+          "Priority support",
+          "Rush release options"
+        ]
+      },
+      "control": {
+        "title": "Complete Control",
+        "subtitle": "Maintain ownership while reaching global audiences",
+        "items": [
+          "Keep 100% of your rights",
+          "Set your own release strategy",
+          "Flexible pricing control",
+          "Territory management"
+        ]
+      },
+      "analytics": {
+        "title": "Transparent Analytics",
+        "subtitle": "Real-time data and detailed reporting",
+        "items": [
+          "Live streaming stats",
+          "Revenue breakdowns",
+          "Playlist tracking",
+          "Monthly statements"
+        ]
+      }
+    },
+    "platforms": {
+      "title": "Global Platform Coverage",
+      "subtitle": "Your music available everywhere your fans are listening",
+      "more": "Plus 100+ more platforms including regional and specialty services"
+    },
+    "pricing": {
+      "badge": "TRANSPARENT PRICING",
+      "title": "Simple Commission Model",
+      "subtitle": "No upfront fees, no hidden costs. We only succeed when you succeed.",
+      "annual": "Annual subscription fees",
+      "perRelease": "Per-release charges",
+      "codes": "UPC/ISRC codes",
+      "total": "Your total upfront cost"
+    },
+    "whoUsesIt": {
+      "title": "Who Uses LAUNCHPAD?",
+      "subtitle": "Designed for music professionals who demand excellence",
+      "labels": {
+        "title": "Independent Labels",
+        "subtitle": "Manage multiple artists with enterprise-grade tools",
+        "features": [
+          "Multi-artist catalog management",
+          "Bulk upload and editing tools",
+          "Sub-label account creation",
+          "Consolidated reporting"
+        ]
+      },
+      "artists": {
+        "title": "Established Artists",
+        "subtitle": "Take control of your career with professional tools",
+        "features": [
+          "Direct platform access",
+          "Real-time analytics dashboard",
+          "Marketing and promo tools",
+          "Priority customer support"
+        ]
+      }
+    },
+    "gettingStarted": {
+      "title": "Getting Started",
+      "subtitle": "Join LAUNCHPAD in three simple steps",
+      "steps": [
+        {
+          "title": "Apply for Access",
+          "description": "Submit your application with links to your music and professional background."
+        },
+        {
+          "title": "Get Approved",
+          "description": "Our team reviews your submission to ensure LAUNCHPAD is the right fit."
+        },
+        {
+          "title": "Start Distributing",
+          "description": "Access your dashboard and begin distributing your music worldwide."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to take control?",
+      "subtitle": "Join the exclusive group of artists and labels using LAUNCHPAD.",
+      "apply": "Apply for LAUNCHPAD",
+      "contact": "Contact Our Team"
+    }
+  },
+  "apply": {
+    "title": "Submit Your Application",
+    "subtitle": "Exclusive service by invitation",
+    "description": "For established artists, labels, publishers, and managers",
+    "form": {
+      "serviceType": "SERVICE TYPE",
+      "personalInfo": "Personal Information",
+      "fullName": "FULL NAME",
+      "email": "EMAIL",
+      "entityName": "LABEL OR ARTIST / BAND NAME",
+      "companyName": "COMPANY / CATALOG NAME",
+      "role": "YOUR ROLE",
+      "country": "COUNTRY",
+      "content": "Your Content",
+      "contentNote": "At least 2 required",
+      "socialMedia": "Social Media & Web",
+      "socialNote": "At least 1 required",
+      "submit": "SUBMIT APPLICATION",
+      "submitting": "SUBMITTING...",
+      "successMessage": "Thank you for your submission. Our team will review your application and contact you if we identify a potential opportunity.",
+      "errorMessage": "There was an error submitting your application. Please try again.",
+      "disclaimer": "By submitting this form, you agree that our team will evaluate your submission to determine the best path forward. We will contact you if we identify a potential opportunity."
+    }
+  },
+  "login": {
+    "title": "Client Portal",
+    "subtitle": "Access your releases and analytics",
+    "email": "EMAIL",
+    "password": "PASSWORD",
+    "signIn": "SIGN IN",
+    "signingIn": "SIGNING IN...",
+    "noAccount": "Don't have an account?",
+    "applyAccess": "Apply for access",
+    "forgotPassword": "Forgot your password?"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "overview": "Overview",
+    "releases": "Releases",
+    "recordings": "Recordings",
+    "recordingsSubtitle": "Manage your music releases and distribution",
+    "compositions": "Compositions",
+    "analytics": "Analytics",
+    "payments": "Payments",
+    "earnings": "Earnings",
+    "contracts": "Contracts",
+    "users": "Users",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "loading": "Loading...",
+    "newRelease": "New Release",
+    "newReleaseDesc": "Submit a new release for distribution",
+    "registerComposition": "Register Composition",
+    "registerCompositionDesc": "Submit a new composition for publishing",
+    "viewAnalytics": "View Analytics",
+    "viewAnalyticsDesc": "Track your performance and earnings",
+    "recentActivity": "Recent Activity",
+    "noActivity": "No recent activity to display.",
+    "confirmDelete": "Are you sure you want to delete this recording?",
+    "searchRecordings": "Search recordings...",
+    "allStatus": "All Status",
+    "draft": "Draft",
+    "submitted": "Submitted",
+    "approved": "Approved",
+    "released": "Released",
+    "title": "Title",
+    "artist": "Artist",
+    "user": "User",
+    "releaseDate": "Release Date",
+    "actions": "Actions",
+    "noRecordings": "No recordings found",
+    "nav": {
+      "overview": "Overview",
+      "releases": "Releases",
+      "compositions": "Compositions",
+      "analytics": "Analytics",
+      "payments": "Payments",
+      "account": "Account"
+    },
+    "stats": {
+      "totalReleases": "Total Releases",
+      "totalStreams": "Total Streams",
+      "totalRevenue": "Total Revenue",
+      "lastPayment": "Last Payment"
+    },
+    "noReleases": "No releases yet",
+    "createRelease": "Create First Release",
+    "release": "Release",
+    "status": {
+      "released": "Released",
+      "pending": "Pending",
+      "draft": "Draft"
+    },
+    "view": "View",
+    "viewAllReleases": "View all releases",
+    "revenueChart": {
+      "title": "Revenue Trend",
+      "noData": "No revenue data available"
+    },
+    "topTracks": {
+      "title": "Top Performing Tracks",
+      "noData": "No track data available",
+      "track": "Track",
+      "streams": "Streams",
+      "revenue": "Revenue"
+    },
+    "filters": {
+      "all": "All",
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "thisYear": "This Year",
+      "custom": "Custom Range"
+    }
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about our services? Want to discuss a potential partnership? We'd love to hear from you.",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "location": "Location",
+    "forArtists": "For Artists & Labels",
+    "forArtistsDesc": "If you're interested in our label, publishing, or distribution services, please submit your application through our official process.",
+    "form": {
+      "name": "NAME",
+      "email": "EMAIL",
+      "subject": "SUBJECT",
+      "message": "MESSAGE",
+      "selectSubject": "Select a subject",
+      "generalInquiry": "General Inquiry",
+      "technicalSupport": "Technical Support",
+      "businessPartnership": "Business Partnership",
+      "pressMedia": "Press & Media",
+      "other": "Other",
+      "sendMessage": "SEND MESSAGE",
+      "sending": "SENDING...",
+      "successMessage": "Thank you for your message. We will get back to you soon.",
+      "errorMessage": "There was an error sending your message. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Artist development for exceptional talent. Distribution and publishing services for established artists and labels.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2025 Rocket Science Music Group & Rocket Science Music Publishing Group LLC. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "intro": "At Rocket Science LLC, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information.",
+      "dataCollection": "Information We Collect",
+      "dataUse": "How We Use Your Information",
+      "dataSharing": "How We Share Your Information",
+      "dataSecurity": "Data Security",
+      "yourRights": "Your Rights",
+      "contact": "Contact Us"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Digital Distribution Terms",
+    "lastUpdated": "Last updated",
+    "acceptanceText": "By submitting your Content, you accept these terms and conditions."
+  },
+  "admin": {
+    "portal": "ADMIN PORTAL",
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "overview": "Overview",
+      "users": "Users",
+      "releases": "Releases",
+      "payments": "Payments",
+      "contracts": "Contracts",
+      "analytics": "Analytics",
+      "settings": "Settings",
+      "totalUsers": "Total Users",
+      "activeClients": "Active clients",
+      "totalReleases": "Total Releases",
+      "distributedTracks": "Distributed tracks",
+      "totalRevenue": "Total Revenue",
+      "allTime": "All time",
+      "pendingPayments": "Pending Payments",
+      "toBeProcessed": "To be processed",
+      "recentActivity": "Recent Activity",
+      "allUsers": "All Users",
+      "addUser": "Add User",
+      "allReleases": "All Releases",
+      "export": "Export",
+      "search": "Search...",
+      "name": "Name",
+      "entity": "Entity",
+      "services": "Services",
+      "joined": "Joined",
+      "actions": "Actions",
+      "release": "Release",
+      "artist": "Artist",
+      "releaseDate": "Release Date",
+      "status": "Status",
+      "platforms": "Platforms",
+      "live": "Live",
+      "pending": "Pending",
+      "activityFeed": "Activity feed coming soon..."
+    },
+    "userForm": {
+      "createUser": "Create New User",
+      "email": "Email",
+      "password": "Password",
+      "generate": "Generate",
+      "fullName": "Full Name",
+      "entityName": "Entity Name",
+      "services": "Services",
+      "cancel": "Cancel",
+      "create": "Create User",
+      "successMessage": "User created successfully!",
+      "errorMessage": "Error creating user"
+    }
+  },
+  "backToReleases": "Back to Releases",
+  "newRelease": "New Release",
+  "releaseInformation": "Release Information",
+  "releaseTitle": "Release Title",
+  "primaryArtist": "Primary Artist",
+  "label": "Label",
+  "releaseDate": "Release Date",
+  "genre": "Genre",
+  "selectGenre": "Select Genre",
+  "language": "Language",
+  "selectLanguage": "Select Language",
+  "explicitContent": "Explicit Content",
+  "coverArtwork": "Cover Artwork",
+  "uploadImage": "Upload Image",
+  "imageRequirements": "3000x3000px, JPG or PNG, max 10MB",
+  "tracks": "Tracks",
+  "addTrack": "Add Track",
+  "track": "Track",
+  "trackTitle": "Track Title",
+  "trackArtist": "Track Artist",
+  "duration": "Duration",
+  "isrc": "ISRC",
+  "cancel": "Cancel",
+  "saveRelease": "Save Release",
+  "saving": "Saving...",
+  "backToCompositions": "Back to Compositions",
+  "registerComposition": "Register Composition",
+  "compositionInformation": "Composition Information",
+  "compositionTitle": "Composition Title",
+  "iswc": "ISWC",
+  "optional": "Optional",
+  "iswcHelp": "International Standard Musical Work Code",
+  "writers": "Writers",
+  "addWriter": "Add Writer",
+  "writerName": "Writer Name",
+  "writerNamePlaceholder": "Enter writer full name",
+  "writersHelp": "Add all writers/composers who contributed to this composition",
+  "additionalInfo": "Additional Information",
+  "compositionRegistrationInfo1": "Once registered, your composition will be submitted to performing rights organizations (PROs) for royalty collection.",
+  "compositionRegistrationInfo2": "Make sure all writer information is accurate as it will be used for royalty distribution.",
+  "compositionRegistrationInfo3": "You will be notified once your composition registration is complete.",
+  "registering": "Registering...",
+  "saveSuccess": "Settings saved successfully",
+  "saveError": "Failed to save settings",
+  "settingsSubtitle": "Manage your account settings",
+  "profileInfo": "Profile Information",
+  "fullName": "Full Name",
+  "email": "Email",
+  "phoneNumber": "Phone Number",
+  "companyName": "Company Name",
+  "optional": "Optional",
+  "viewAll": "View All",
+  "contractsDesc": "Manage your contracts",
+  "paymentInfo": "Payment Information",
+  "taxId": "Tax ID",
+  "taxIdPlaceholder": "Enter tax ID",
+  "paymentNote": "Payment details will be used for royalty payouts",
+  "security": "Security",
+  "changePassword": "Change Password",
+  "enable2fa": "Enable Two-Factor Authentication",
+  "saving": "Saving...",
+  "saveChanges": "Save Changes"
+}
