@@ -335,6 +335,19 @@
       "disclaimer": "Al enviar este formulario, aceptas que nuestro equipo evaluará tu presentación para determinar el mejor camino a seguir. Te contactaremos si identificamos una oportunidad potencial."
     }
   },
+  "login": {
+    "title": "Iniciar Sesión",
+    "subtitle": "Accede a tu panel",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "signIn": "Iniciar Sesión",
+    "signingIn": "Iniciando Sesión...",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "applyAccess": "Solicitar Acceso",
+    "errorMessage": "Correo o contraseña inválidos",
+    "successMessage": "Sesión iniciada exitosamente"
+  },
   "explore": {
     "title": "LAUNCHPAD",
     "subtitle": "Distribución profesional para artistas y sellos independientes",
@@ -361,7 +374,9 @@
       "title": "¿Listo para lanzar tu carrera musical?",
       "apply": "Aplicar Ahora",
       "learnMore": "Aprender Más"
-    }
+    },
+    "applyAccess": "Solicitar Acceso",
+    "loginToAccess": "Iniciar Sesión para Acceder"
   },
   "contact": {
     "title": "Ponte en Contacto",
@@ -525,7 +540,26 @@
     "email": "Correo Electrónico",
     "phone": "Teléfono",
     "company": "Empresa",
-    "user": "Usuario"
+    "user": "Usuario",
+    "recentReleases": "Lanzamientos Recientes",
+    "recentCompositions": "Composiciones Recientes",
+    "noReleasesYet": "No hay lanzamientos aún",
+    "noCompositionsYet": "No hay composiciones aún",
+    "createFirstRelease2": "Crear Primer Lanzamiento",
+    "registerFirstWork": "Registrar Primera Obra",
+    "newRelease2": "Nuevo Lanzamiento",
+    "registerWork": "Registrar Obra",
+    "viewAnalytics2": "Ver Analíticas",
+    "revenueTrends": "Tendencias de Ingresos",
+    "revenueDataComingSoon": "Datos de ingresos próximamente con LAUNCHPAD",
+    "totalReleases2": "Lanzamientos totales",
+    "registeredWorks": "Obras registradas",
+    "totalPlays": "Reproducciones totales",
+    "totalEarnings": "Ganancias totales",
+    "admin": "Administrador",
+    "client": "Cliente",
+    "viewAllArrow": "Ver todo →",
+    "noIswc": "Sin ISWC"
   },
   "releasesPage": {
     "title": "Lanzamientos",

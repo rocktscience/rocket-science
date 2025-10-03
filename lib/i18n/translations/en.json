@@ -335,6 +335,19 @@
       "disclaimer": "By submitting this form, you agree that our team will evaluate your submission to determine the best path forward. We will contact you if we identify a potential opportunity."
     }
   },
+  "login": {
+    "title": "Sign In",
+    "subtitle": "Access your dashboard",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing In...",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "applyAccess": "Apply for Access",
+    "errorMessage": "Invalid email or password",
+    "successMessage": "Successfully signed in"
+  },
   "explore": {
     "title": "LAUNCHPAD",
     "subtitle": "Professional distribution for independent artists & labels",
@@ -361,7 +374,9 @@
       "title": "Ready to launch your music career?",
       "apply": "Apply Now",
       "learnMore": "Learn More"
-    }
+    },
+    "applyAccess": "Apply for Access",
+    "loginToAccess": "Login to Access"
   },
   "contact": {
     "title": "Get in Touch",
@@ -525,7 +540,26 @@
     "email": "Email",
     "phone": "Phone",
     "company": "Company",
-    "user": "User"
+    "user": "User",
+    "recentReleases": "Recent Releases",
+    "recentCompositions": "Recent Compositions",
+    "noReleasesYet": "No releases yet",
+    "noCompositionsYet": "No compositions yet",
+    "createFirstRelease2": "Create First Release",
+    "registerFirstWork": "Register First Work",
+    "newRelease2": "New Release",
+    "registerWork": "Register Work",
+    "viewAnalytics2": "View Analytics",
+    "revenueTrends": "Revenue Trends",
+    "revenueDataComingSoon": "Revenue data coming soon with LAUNCHPAD",
+    "totalReleases2": "Total releases",
+    "registeredWorks": "Registered works",
+    "totalPlays": "Total plays",
+    "totalEarnings": "Total earnings",
+    "admin": "Admin",
+    "client": "Client",
+    "viewAllArrow": "View all →",
+    "noIswc": "No ISWC"
   },
   "releasesPage": {
     "title": "Releases",
