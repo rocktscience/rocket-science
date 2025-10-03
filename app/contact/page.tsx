@@ -56,18 +56,27 @@ export default function ContactPage() {
     setIsSubmitting(true);
     setSubmitMessage('');
 
+    const web3FormsData = {
+      access_key: "5f00a082-1273-4a83-8285-c8966b573511",
+      subject: `Contact Form: ${formData.subject}`,
+      from_name: formData.name,
+      email: formData.email,
+      message: formData.message
+    };
+
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Accept': 'application/json'
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(web3FormsData)
       });
 
       const result = await response.json();
 
-      if (response.ok) {
+      if (result.success) {
         setSubmitMessage(t.contact.form.successMessage);
         setFormData({
           name: '',
@@ -77,7 +86,7 @@ export default function ContactPage() {
         });
         setErrors({});
       } else {
-        setSubmitMessage(result.error || t.contact.form.errorMessage);
+        setSubmitMessage(t.contact.form.errorMessage);
       }
     } catch (error) {
       setSubmitMessage(t.contact.form.errorMessage);

@@ -6,7 +6,6 @@ import { ArrowLeft, Send } from 'lucide-react';
 import { useTranslations } from '@/app/providers/TranslationProvider';
 import LanguageSelector from '@/components/LanguageSelector';
 import Logo from '@/components/icons/Logo';
-import { createClient } from '@/lib/supabase/client';
 
 export default function ApplyPage() {
   const { t } = useTranslations();
@@ -101,41 +100,77 @@ export default function ApplyPage() {
     setIsSubmitting(true);
     setSubmitMessage('');
 
-    try {
-      const supabase = createClient();
+    // Prepare data for Web3Forms
+    const web3FormsData = {
+      access_key: "YOUR_ACCESS_KEY", // <-- PUT YOUR ACCESS KEY HERE
+      subject: "New Application Form Submission",
+      from_name: formData.full_name,
       
-      const { error } = await supabase
-        .from('applications')
-        .insert([{
-          ...formData,
-          service_type: 'pending_review' // Default value since we removed the field
-        }]);
+      // Personal Information
+      "Full Name": formData.full_name,
+      "Email": formData.email,
+      "Entity Name": formData.entity_name,
+      "Role": formData.role,
+      "Country": formData.country,
+      
+      // Content URLs
+      "Spotify URL": formData.spotify_url || "Not provided",
+      "Apple Music URL": formData.apple_music_url || "Not provided",
+      "YouTube URL": formData.youtube_url || "Not provided",
+      "SoundCloud URL": formData.soundcloud_url || "Not provided",
+      "Bandcamp URL": formData.bandcamp_url || "Not provided",
+      "Other Platform URL": formData.other_url || "Not provided",
+      
+      // Social Media
+      "Website": formData.website_url || "Not provided",
+      "Instagram": formData.instagram_url || "Not provided",
+      "Twitter/X": formData.twitter_url || "Not provided",
+      "Facebook": formData.facebook_url || "Not provided",
+      "TikTok": formData.tiktok_url || "Not provided",
+      "Other Social": formData.other_social_url || "Not provided"
+    };
 
-      if (error) {
-        throw error;
-      }
+    console.log('Sending to Web3Forms:', web3FormsData);
 
-      setSubmitMessage(t.apply.form.successMessage);
-      // Reset form
-      setFormData({
-        full_name: '',
-        email: '',
-        entity_name: '',
-        role: '',
-        country: '',
-        spotify_url: '',
-        apple_music_url: '',
-        youtube_url: '',
-        soundcloud_url: '',
-        bandcamp_url: '',
-        other_url: '',
-        website_url: '',
-        instagram_url: '',
-        twitter_url: '',
-        facebook_url: '',
-        tiktok_url: '',
-        other_social_url: ''
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(web3FormsData)
       });
+
+      const result = await response.json();
+      console.log('Web3Forms response:', result);
+
+      if (result.success) {
+        setSubmitMessage(t.apply.form.successMessage);
+        // Reset form
+        setFormData({
+          full_name: '',
+          email: '',
+          entity_name: '',
+          role: '',
+          country: '',
+          spotify_url: '',
+          apple_music_url: '',
+          youtube_url: '',
+          soundcloud_url: '',
+          bandcamp_url: '',
+          other_url: '',
+          website_url: '',
+          instagram_url: '',
+          twitter_url: '',
+          facebook_url: '',
+          tiktok_url: '',
+          other_social_url: ''
+        });
+        setErrors({});
+      } else {
+        throw new Error('Form submission failed');
+      }
     } catch (error) {
       console.error('Error submitting application:', error);
       setSubmitMessage(t.apply.form.errorMessage);
