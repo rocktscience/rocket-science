@@ -401,7 +401,7 @@ export default function NewCompositionPage() {
             className="inline-flex items-center text-gray-600 hover:text-gray-900 mb-6 transition"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            <span className="text-sm">{t.backToCompositions}</span>
+            <span className="text-sm">Back to Compositions</span>
           </Link>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tighter">
             <span className="bg-gradient-to-b from-gray-600 to-black bg-clip-text text-transparent">
