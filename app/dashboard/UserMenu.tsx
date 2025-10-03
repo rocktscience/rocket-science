@@ -59,7 +59,7 @@ export default function UserMenu() {
             {profile?.full_name || user?.email}
           </p>
           <p className="text-xs text-gray-500 capitalize">
-            {profile?.role === 'admin' ? t.admin : t.client}
+            {profile?.role === 'admin' ? 'Admin' : 'Client'}
           </p>
         </div>
         
