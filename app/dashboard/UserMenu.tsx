@@ -83,7 +83,7 @@ export default function UserMenu() {
             className="w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2"
           >
             <Settings className="w-4 h-4" />
-            <span>{t.settings}</span>
+            <span>Settings</span>
           </button>
           
           <hr className="my-2 border-gray-200" />
@@ -93,7 +93,7 @@ export default function UserMenu() {
             className="w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2"
           >
             <LogOut className="w-4 h-4" />
-            <span>{t.signOut}</span>
+            <span>Sign Out</span>
           </button>
         </div>
       )}
