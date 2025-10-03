@@ -360,6 +360,9 @@
       "errorMessage": "Hubo un error al enviar tu mensaje. Por favor intenta de nuevo."
     }
   },
+  "settings": "Configuración",
+  "profile": "Perfil",
+  "signOut": "Cerrar Sesión",
   "common": {
     "loading": "Cargando...",
     "error": "Ocurrió un error",

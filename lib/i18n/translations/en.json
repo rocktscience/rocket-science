@@ -360,6 +360,9 @@
       "errorMessage": "There was an error sending your message. Please try again."
     }
   },
+  "settings": "Settings",
+  "profile": "Profile",
+  "signOut": "Sign Out",
   "common": {
     "loading": "Loading...",
     "error": "An error occurred",
