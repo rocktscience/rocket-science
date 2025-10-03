@@ -376,7 +376,8 @@
       "learnMore": "Learn More"
     },
     "applyAccess": "Apply for Access",
-    "loginToAccess": "Login to Access"
+    "loginToAccess": "Login to Access",
+    "clientLogin": "Client Login"
   },
   "contact": {
     "title": "Get in Touch",

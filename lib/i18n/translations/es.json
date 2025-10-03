@@ -376,7 +376,8 @@
       "learnMore": "Aprender Más"
     },
     "applyAccess": "Solicitar Acceso",
-    "loginToAccess": "Iniciar Sesión para Acceder"
+    "loginToAccess": "Iniciar Sesión para Acceder",
+    "clientLogin": "Inicio de Sesión de Cliente"
   },
   "contact": {
     "title": "Ponte en Contacto",
