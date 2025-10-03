@@ -358,8 +358,10 @@ export default function DashboardPage() {
       {revenueData.length > 0 && (
         <div className="bg-white rounded-xl border border-gray-200 p-6">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Revenue Trends</h2>
-          <RevenueChart data={revenueData} />
+          <div className="h-64 flex items-center justify-center bg-gray-50 rounded-lg">
+            <p className="text-gray-500 text-sm">Revenue data coming soon with LAUNCHPAD</p>
         </div>
+</div>
       )}
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

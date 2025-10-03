@@ -246,18 +246,14 @@ export default function NewReleasePage() {
           various_artists: variousArtists,
           needs_upc: needsUPC,
           cover_url: coverUrl,
-          genre: primaryGenre
+          genre: primaryGenre,
+          upc: !needsUPC ? upc : undefined  // Add it here conditionally
         },
         release_date: releaseDate,
         p_line: pLine,
         c_line: cLine,
         status: 'draft'
       };
-
-      // Add UPC if not needed to be generated
-      if (!needsUPC && upc) {
-        releaseData.metadata.upc = upc;
-      }
 
       const { data: release, error: releaseError } = await supabase
         .from('releases')
@@ -375,10 +371,6 @@ export default function NewReleasePage() {
         status: 'submitted'
       };
 
-      if (!needsUPC && upc) {
-        releaseData.metadata.upc = upc;
-      }
-
       const { data: release, error: releaseError } = await supabase
         .from('releases')
         .insert(releaseData)
@@ -445,7 +437,7 @@ export default function NewReleasePage() {
             className="inline-flex items-center text-gray-600 hover:text-gray-900 mb-6 transition"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            <span className="text-sm">{t.backToReleases || 'Back to Releases'}</span>
+            <span className="text-sm">{t.releasesPage.backToReleases || 'Back to Releases'}</span>
           </Link>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tighter">
             <span className="bg-gradient-to-b from-gray-600 to-black bg-clip-text text-transparent">
