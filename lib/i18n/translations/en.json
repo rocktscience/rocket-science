@@ -335,6 +335,34 @@
       "disclaimer": "By submitting this form, you agree that our team will evaluate your submission to determine the best path forward. We will contact you if we identify a potential opportunity."
     }
   },
+  "explore": {
+    "title": "LAUNCHPAD",
+    "subtitle": "Professional distribution for independent artists & labels",
+    "description": "Get your music on 100+ streaming platforms worldwide. Register compositions with PROs globally. Track your earnings with transparent analytics.",
+    "features": {
+      "distribution": {
+        "title": "Global Distribution",
+        "description": "Release your music on Spotify, Apple Music, YouTube Music, and 100+ platforms worldwide"
+      },
+      "publishing": {
+        "title": "Publishing Administration",
+        "description": "Register compositions with PROs globally and collect all your royalties"
+      },
+      "analytics": {
+        "title": "Real-Time Analytics",
+        "description": "Track streams, earnings, and audience insights with our comprehensive dashboard"
+      },
+      "support": {
+        "title": "Professional Support",
+        "description": "Dedicated team to help you maximize your music's potential"
+      }
+    },
+    "cta": {
+      "title": "Ready to launch your music career?",
+      "apply": "Apply Now",
+      "learnMore": "Learn More"
+    }
+  },
   "contact": {
     "title": "Get in Touch",
     "subtitle": "Have questions about our services? Want to discuss a potential partnership? We'd love to hear from you.",
@@ -741,7 +769,7 @@
   },
   "analyticsPage": {
     "title": "Analytics",
-    "subtitle": "Track your performance and insights",
+    "subtitle": "Track your music performance across all platforms",
     "overview": "Overview",
     "streams": "Streams",
     "revenue": "Revenue",
@@ -756,7 +784,15 @@
     "custom": "Custom",
     "totalStreams": "Total Streams",
     "totalRevenue": "Total Revenue",
+    "streamingRevenue": "Streaming Revenue",
     "averageStreams": "Average Streams",
+    "averageStreamsPerDay": "Avg. Streams/Day",
+    "recentPerformance": "Recent Performance",
+    "date": "Date",
+    "platform": "Platform",
+    "allPlatforms": "All Platforms",
+    "streams": "Streams",
+    "revenue": "Revenue",
     "growthRate": "Growth Rate",
     "topCountries": "Top Countries",
     "topCities": "Top Cities",
