@@ -124,109 +124,192 @@
       "contactTeam": "Contact Our Team"
     }
   },
-  "explore": {
-    "title": "Explore LAUNCHPAD",
-    "subtitle": "Professional distribution tools designed exclusively for established artists, labels, and publishers. Get your music on 100+ platforms worldwide while maintaining complete control.",
-    "applyAccess": "Apply for Access",
-    "clientLogin": "Client Login",
-    "whatIs": {
-      "title": "What is LAUNCHPAD?",
-      "description": "LAUNCHPAD is our exclusive distribution platform designed for professional artists and labels. Unlike traditional distributors, we offer personalized service, transparent reporting, and strategic support to help you maximize your music's potential."
-    },
-    "features": {
-      "fast": {
-        "title": "Fast Distribution",
-        "subtitle": "Get your music live on all major platforms quickly",
-        "items": [
-          "24-48 hour processing",
-          "Direct platform delivery",
-          "Priority support",
-          "Rush release options"
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "sections": {
+      "1": {
+        "title": "1. Information We Collect",
+        "content1": "At Rocket Science Music Group & Rocket Science Music Publishing Group LLC (\"we,\" \"us,\" or \"our\"), we collect information you provide directly to us when you visit our website, submit an application, or contact us.",
+        "content2": "The types of information we may collect include:",
+        "list": [
+          "Personal information (name, email address, phone number)",
+          "Professional information (artist name, company name, role)",
+          "Content you submit (music links, social media profiles)",
+          "Communications you send to us",
+          "Usage data and analytics when you visit our website"
         ]
       },
-      "control": {
-        "title": "Complete Control",
-        "subtitle": "Maintain ownership while reaching global audiences",
-        "items": [
-          "Keep 100% of your rights",
-          "Set your own release strategy",
-          "Flexible pricing control",
-          "Territory management"
+      "2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to:",
+        "list": [
+          "Review and respond to your applications and inquiries",
+          "Communicate with you about our services",
+          "Send you updates and marketing communications (with your consent)",
+          "Improve our website and services",
+          "Comply with legal obligations",
+          "Protect our rights and prevent fraud"
         ]
       },
-      "analytics": {
-        "title": "Transparent Analytics",
-        "subtitle": "Real-time data and detailed reporting",
-        "items": [
-          "Live streaming stats",
-          "Revenue breakdowns",
-          "Playlist tracking",
-          "Monthly statements"
-        ]
-      }
-    },
-    "platforms": {
-      "title": "Global Platform Coverage",
-      "subtitle": "Your music available everywhere your fans are listening",
-      "more": "Plus 100+ more platforms including regional and specialty services"
-    },
-    "pricing": {
-      "badge": "TRANSPARENT PRICING",
-      "title": "Simple Commission Model",
-      "subtitle": "No upfront fees, no hidden costs. We only succeed when you succeed.",
-      "annual": "Annual subscription fees",
-      "perRelease": "Per-release charges",
-      "codes": "UPC/ISRC codes",
-      "total": "Your total upfront cost"
-    },
-    "whoUsesIt": {
-      "title": "Who Uses LAUNCHPAD?",
-      "subtitle": "Designed for music professionals who demand excellence",
-      "labels": {
-        "title": "Independent Labels",
-        "subtitle": "Manage multiple artists with enterprise-grade tools",
-        "features": [
-          "Multi-artist catalog management",
-          "Bulk upload and editing tools",
-          "Sub-label account creation",
-          "Consolidated reporting"
+      "3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:",
+        "list": [
+          "With your consent or at your direction",
+          "With service providers who assist us in operating our website and conducting our business",
+          "When required by law or to respond to legal process",
+          "To protect our rights, privacy, safety, or property",
+          "In connection with a business transfer, merger, or acquisition"
         ]
       },
-      "artists": {
-        "title": "Established Artists",
-        "subtitle": "Take control of your career with professional tools",
-        "features": [
-          "Direct platform access",
-          "Real-time analytics dashboard",
-          "Marketing and promo tools",
-          "Priority customer support"
-        ]
-      }
-    },
-    "gettingStarted": {
-      "title": "Getting Started",
-      "subtitle": "Join LAUNCHPAD in three simple steps",
-      "steps": [
-        {
-          "title": "Apply for Access",
-          "description": "Submit your application with links to your music and professional background."
-        },
-        {
-          "title": "Get Approved",
-          "description": "Our team reviews your submission to ensure LAUNCHPAD is the right fit."
-        },
-        {
-          "title": "Start Distributing",
-          "description": "Access your dashboard and begin distributing your music worldwide."
+      "4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security."
+      },
+      "5": {
+        "title": "5. Your Rights and Choices",
+        "content1": "You have certain rights regarding your personal information:",
+        "list": [
+          "Access and receive a copy of your personal information",
+          "Correct or update inaccurate information",
+          "Request deletion of your information (subject to legal requirements)",
+          "Opt-out of marketing communications",
+          "Withdraw consent where applicable"
+        ],
+        "content2": "To exercise these rights, please contact us using the information below."
+      },
+      "6": {
+        "title": "6. Cookies and Tracking",
+        "content1": "We use cookies and similar tracking technologies to collect information about your browsing activities on our website. Cookies are small data files stored on your device. You can control cookies through your browser settings, but disabling them may limit your ability to use certain features of our website.",
+        "content2": "We may use analytics services like Google Analytics to help us understand how visitors use our website."
+      },
+      "7": {
+        "title": "7. Third-Party Links",
+        "content": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these sites. We encourage you to review the privacy policies of any third-party sites you visit."
+      },
+      "8": {
+        "title": "8. Children's Privacy",
+        "content": "Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children under 18. If we become aware that we have collected information from a child under 18, we will take steps to delete it."
+      },
+      "9": {
+        "title": "9. International Data Transfers",
+        "content": "Your information may be transferred to and processed in countries other than your own, including the United States. These countries may have different data protection laws than your jurisdiction. By using our services, you consent to such transfers."
+      },
+      "10": {
+        "title": "10. Data Retention",
+        "content": "We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law."
+      },
+      "11": {
+        "title": "11. California Privacy Rights",
+        "content": "California residents have additional rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect, the right to delete personal information, and the right to opt-out of the sale of personal information (which we do not do)."
+      },
+      "12": {
+        "title": "12. Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new policy on this page and updating the \"Last updated\" date. Your continued use of our services after changes constitutes acceptance of the modified policy."
+      },
+      "13": {
+        "title": "13. Contact Us",
+        "content": "If you have questions about this Privacy Policy or our data practices, please contact us at:",
+        "contactInfo": {
+          "company": "Rocket Science Music Group LLC",
+          "email": "Email: privacy@rocktscience.com",
+          "location": "Miami, Florida"
         }
-      ]
-    },
-    "cta": {
-      "title": "Ready to take control?",
-      "subtitle": "Join the exclusive group of artists and labels using LAUNCHPAD.",
-      "apply": "Apply for LAUNCHPAD",
-      "contact": "Contact Our Team"
+      }
     }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 2025",
+    "sections": {
+      "1": {
+        "title": "1. Agreement to Terms",
+        "content": "By accessing or using the website of Rocket Science Music Group & Rocket Science Music Publishing Group LLC (\"Company,\" \"we,\" \"us,\" or \"our\"), you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree to these Terms, you may not use our website."
+      },
+      "2": {
+        "title": "2. Website Use",
+        "content1": "Our website provides information about our music industry services, including record label operations, artist development, and music publishing administration. You may use our website for lawful purposes only.",
+        "content2": "You agree not to:",
+        "list": [
+          "Use our website in any way that violates applicable laws or regulations",
+          "Attempt to gain unauthorized access to any portion of the website",
+          "Interfere with or disrupt the website or servers",
+          "Copy, reproduce, or distribute website content without permission",
+          "Use automated systems to access the website without our consent"
+        ]
+      },
+      "3": {
+        "title": "3. Intellectual Property",
+        "content1": "All content on this website, including text, graphics, logos, images, audio clips, and software, is the property of Rocket Science Music Group LLC or its content suppliers and is protected by international copyright laws. The compilation of all content on this website is our exclusive property.",
+        "content2": "Trademarks, logos, and service marks displayed on this website are registered and unregistered trademarks of the Company or third parties. Nothing on this website should be construed as granting any license or right to use any trademark without our written permission."
+      },
+      "4": {
+        "title": "4. Application Submissions",
+        "content": "When you submit an application through our website:",
+        "list": [
+          "You represent that all information provided is accurate and complete",
+          "You grant us permission to review your submitted materials",
+          "You understand that submission does not guarantee acceptance or any business relationship",
+          "We reserve the right to decline any application at our sole discretion",
+          "We are not obligated to provide feedback on submissions"
+        ]
+      },
+      "5": {
+        "title": "5. Contact Information",
+        "content": "If you provide contact information through our website, you consent to us contacting you regarding your inquiry or submission. We will handle your information according to our Privacy Policy."
+      },
+      "6": {
+        "title": "6. Disclaimers",
+        "noWarranties": "No Warranties: This website is provided \"as is\" without any representations or warranties, express or implied. We make no representations or warranties regarding the accuracy or completeness of content on this website.",
+        "noAdvice": "No Professional Advice: Information on this website is for general informational purposes only and should not be considered professional advice regarding legal, financial, or career matters.",
+        "externalLinks": "External Links: Our website may contain links to third-party websites. We have no control over the content of these sites and assume no responsibility for them."
+      },
+      "7": {
+        "title": "7. Limitation of Liability",
+        "content1": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COMPANY SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, ARISING OUT OF OR RELATED TO YOUR USE OF THE WEBSITE.",
+        "content2": "In no event shall our total liability exceed the amount of one hundred dollars ($100)."
+      },
+      "8": {
+        "title": "8. Indemnification",
+        "content": "You agree to indemnify and hold harmless the Company, its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses arising from your use of the website or violation of these Terms."
+      },
+      "9": {
+        "title": "9. Privacy",
+        "content": "Your use of our website is also governed by our Privacy Policy. Please review our Privacy Policy, which explains how we collect, use, and protect your information."
+      },
+      "10": {
+        "title": "10. Governing Law",
+        "content": "These Terms shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law provisions. Any disputes arising from these Terms shall be resolved exclusively in the courts of Miami-Dade County, Florida."
+      },
+      "11": {
+        "title": "11. Changes to Terms",
+        "content": "We reserve the right to modify these Terms at any time. We will notify users of any material changes by posting the new Terms on this page and updating the \"Last updated\" date. Your continued use of the website after changes constitutes acceptance of the modified Terms."
+      },
+      "12": {
+        "title": "12. Severability",
+        "content": "If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect."
+      },
+      "13": {
+        "title": "13. Contact Information",
+        "content": "For questions about these Terms of Service, please contact us at:",
+        "contactInfo": {
+          "company": "Rocket Science Music Group LLC",
+          "email": "Email: legal@rocktscience.com",
+          "location": "Miami, Florida"
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "Artist development for exceptional talent. Distribution and publishing services for established artists and labels.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2025 Rocket Science LLC & Rocket Science Music Publishing Group LLC. All rights reserved."
   },
   "apply": {
     "title": "Submit Your Application",
@@ -251,99 +334,6 @@
       "errorMessage": "There was an error submitting your application. Please try again.",
       "disclaimer": "By submitting this form, you agree that our team will evaluate your submission to determine the best path forward. We will contact you if we identify a potential opportunity."
     }
-  },
-  "login": {
-    "title": "Client Portal",
-    "subtitle": "Access your releases and analytics",
-    "email": "EMAIL",
-    "password": "PASSWORD",
-    "signIn": "SIGN IN",
-    "signingIn": "SIGNING IN...",
-    "noAccount": "Don't have an account?",
-    "applyAccess": "Apply for access",
-    "forgotPassword": "Forgot your password?"
-  },
-  "dashboard": {
-    "welcome": "Welcome back",
-    "overview": "Overview",
-    "releases": "Releases",
-    "recordings": "Recordings",
-    "recordingsSubtitle": "Manage your music releases and distribution",
-    "compositions": "Compositions",
-    "analytics": "Analytics",
-    "payments": "Payments",
-    "earnings": "Earnings",
-    "contracts": "Contracts",
-    "users": "Users",
-    "settings": "Settings",
-    "signOut": "Sign Out",
-    "loading": "Loading...",
-    "newRelease": "New Release",
-    "newReleaseDesc": "Submit a new release for distribution",
-    "registerComposition": "Register Composition",
-    "registerCompositionDesc": "Submit a new composition for publishing",
-    "viewAnalytics": "View Analytics",
-    "viewAnalyticsDesc": "Track your performance and earnings",
-    "recentActivity": "Recent Activity",
-    "noActivity": "No recent activity to display.",
-    "confirmDelete": "Are you sure you want to delete this recording?",
-    "searchRecordings": "Search recordings...",
-    "allStatus": "All Status",
-    "draft": "Draft",
-    "submitted": "Submitted",
-    "approved": "Approved",
-    "released": "Released",
-    "title": "Title",
-    "artist": "Artist",
-    "user": "User",
-    "releaseDate": "Release Date",
-    "actions": "Actions",
-    "noRecordings": "No recordings found",
-    "nav": {
-      "overview": "Overview",
-      "releases": "Releases",
-      "compositions": "Compositions",
-      "analytics": "Analytics",
-      "payments": "Payments",
-      "account": "Account"
-    },
-    "stats": {
-      "totalReleases": "Total Releases",
-      "totalStreams": "Total Streams",
-      "totalRevenue": "Total Revenue",
-      "lastPayment": "Last Payment"
-    },
-    "noReleases": "No releases yet",
-    "createRelease": "Create First Release",
-    "release": "Release",
-    "status": {
-      "released": "Released",
-      "pending": "Pending",
-      "draft": "Draft"
-    },
-    "view": "View",
-    "viewAllReleases": "View all releases",
-    "revenueChart": {
-      "title": "Revenue Trend",
-      "noData": "No revenue data available"
-    },
-    "topTracks": {
-      "title": "Top Performing Tracks",
-      "noData": "No track data available",
-      "track": "Track",
-      "streams": "Streams",
-      "revenue": "Revenue"
-    },
-    "filters": {
-      "all": "All",
-      "thisMonth": "This Month",
-      "lastMonth": "Last Month",
-      "thisYear": "This Year",
-      "custom": "Custom Range"
-    }
-  },
-  "common": {
-    "loading": "Loading..."
   },
   "contact": {
     "title": "Get in Touch",
@@ -370,148 +360,31 @@
       "errorMessage": "There was an error sending your message. Please try again."
     }
   },
-  "footer": {
-    "description": "Artist development for exceptional talent. Distribution and publishing services for established artists and labels.",
-    "quickLinks": "Quick Links",
-    "services": "Services",
-    "contact": "Contact",
-    "legal": "Legal",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "copyright": "© 2025 Rocket Science Music Group & Rocket Science Music Publishing Group LLC. All rights reserved."
+  "common": {
+    "loading": "Loading..."
   },
-  "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated",
-    "sections": {
-      "intro": "At Rocket Science LLC, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information.",
-      "dataCollection": "Information We Collect",
-      "dataUse": "How We Use Your Information",
-      "dataSharing": "How We Share Your Information",
-      "dataSecurity": "Data Security",
-      "yourRights": "Your Rights",
-      "contact": "Contact Us"
-    }
-  },
-  "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Digital Distribution Terms",
-    "lastUpdated": "Last updated",
-    "acceptanceText": "By submitting your Content, you accept these terms and conditions."
-  },
-  "admin": {
-    "portal": "ADMIN PORTAL",
-    "dashboard": {
-      "title": "Admin Dashboard",
-      "overview": "Overview",
-      "users": "Users",
-      "releases": "Releases",
-      "payments": "Payments",
-      "contracts": "Contracts",
-      "analytics": "Analytics",
-      "settings": "Settings",
-      "totalUsers": "Total Users",
-      "activeClients": "Active clients",
-      "totalReleases": "Total Releases",
-      "distributedTracks": "Distributed tracks",
-      "totalRevenue": "Total Revenue",
-      "allTime": "All time",
-      "pendingPayments": "Pending Payments",
-      "toBeProcessed": "To be processed",
-      "recentActivity": "Recent Activity",
-      "allUsers": "All Users",
-      "addUser": "Add User",
-      "allReleases": "All Releases",
-      "export": "Export",
-      "search": "Search...",
-      "name": "Name",
-      "entity": "Entity",
-      "services": "Services",
-      "joined": "Joined",
-      "actions": "Actions",
-      "release": "Release",
-      "artist": "Artist",
-      "releaseDate": "Release Date",
-      "status": "Status",
-      "platforms": "Platforms",
-      "live": "Live",
-      "pending": "Pending",
-      "activityFeed": "Activity feed coming soon..."
-    },
-    "userForm": {
-      "createUser": "Create New User",
-      "email": "Email",
-      "password": "Password",
-      "generate": "Generate",
-      "fullName": "Full Name",
-      "entityName": "Entity Name",
-      "services": "Services",
-      "cancel": "Cancel",
-      "create": "Create User",
-      "successMessage": "User created successfully!",
-      "errorMessage": "Error creating user"
-    }
-  },
-  "backToReleases": "Back to Releases",
-  "newRelease": "New Release",
-  "releaseInformation": "Release Information",
-  "releaseTitle": "Release Title",
-  "primaryArtist": "Primary Artist",
-  "label": "Label",
-  "releaseDate": "Release Date",
-  "genre": "Genre",
-  "selectGenre": "Select Genre",
-  "language": "Language",
-  "selectLanguage": "Select Language",
-  "explicitContent": "Explicit Content",
-  "coverArtwork": "Cover Artwork",
-  "uploadImage": "Upload Image",
-  "imageRequirements": "3000x3000px, JPG or PNG, max 10MB",
-  "tracks": "Tracks",
-  "addTrack": "Add Track",
-  "track": "Track",
-  "trackTitle": "Track Title",
-  "trackArtist": "Track Artist",
-  "duration": "Duration",
-  "isrc": "ISRC",
-  "cancel": "Cancel",
-  "saveRelease": "Save Release",
-  "saving": "Saving...",
-  "backToCompositions": "Back to Compositions",
-  "registerComposition": "Register Composition",
-  "compositionInformation": "Composition Information",
-  "compositionTitle": "Composition Title",
-  "iswc": "ISWC",
-  "optional": "Optional",
-  "iswcHelp": "International Standard Musical Work Code",
-  "writers": "Writers",
-  "addWriter": "Add Writer",
-  "writerName": "Writer Name",
-  "writerNamePlaceholder": "Enter writer full name",
-  "writersHelp": "Add all writers/composers who contributed to this composition",
-  "additionalInfo": "Additional Information",
-  "compositionRegistrationInfo1": "Once registered, your composition will be submitted to performing rights organizations (PROs) for royalty collection.",
-  "compositionRegistrationInfo2": "Make sure all writer information is accurate as it will be used for royalty distribution.",
-  "compositionRegistrationInfo3": "You will be notified once your composition registration is complete.",
-  "registering": "Registering...",
-  "saveSuccess": "Settings saved successfully",
-  "saveError": "Failed to save settings",
-  "settingsSubtitle": "Manage your account settings",
-  "profileInfo": "Profile Information",
-  "fullName": "Full Name",
-  "email": "Email",
-  "phoneNumber": "Phone Number",
-  "companyName": "Company Name",
-  "optional": "Optional",
-  "viewAll": "View All",
-  "contractsDesc": "Manage your contracts",
-  "paymentInfo": "Payment Information",
-  "taxId": "Tax ID",
-  "taxIdPlaceholder": "Enter tax ID",
-  "paymentNote": "Payment details will be used for royalty payouts",
-  "security": "Security",
-  "changePassword": "Change Password",
-  "enable2fa": "Enable Two-Factor Authentication",
-  "saving": "Saving...",
-  "saveChanges": "Save Changes"
+  "dashboard": {
+    "welcome": "Welcome back",
+    "overview": "Overview",
+    "releases": "Releases",
+    "recordings": "Recordings",
+    "recordingsSubtitle": "Manage your music releases and distribution",
+    "compositions": "Compositions",
+    "analytics": "Analytics",
+    "payments": "Payments",
+    "earnings": "Earnings",
+    "contracts": "Contracts",
+    "users": "Users",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "loading": "Loading...",
+    "newRelease": "New Release",
+    "newReleaseDesc": "Submit a new release for distribution",
+    "registerComposition": "Register Composition",
+    "registerCompositionDesc": "Submit a new composition for publishing",
+    "viewAnalytics": "View Analytics",
+    "viewAnalyticsDesc": "Track your performance and earnings",
+    "recentActivity": "Recent Activity",
+    "noActivity": "No recent activity to display."
+  }
 }

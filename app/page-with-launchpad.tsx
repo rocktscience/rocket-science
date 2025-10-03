@@ -28,6 +28,12 @@ export default function HomePage() {
             </div>
             <div className="flex items-center gap-4">
               <LanguageSelector />
+              <Link 
+                href="/login" 
+                className="bg-gray-900 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition"
+              >
+                {t.nav.launchpad}
+              </Link>
             </div>
           </div>
         </div>
@@ -51,6 +57,12 @@ export default function HomePage() {
                 className="rounded-full bg-gray-900 px-8 py-3 text-sm font-medium text-white shadow-lg hover:bg-gray-800 hover:shadow-xl transition-all"
               >
                 {t.home.hero.exploreServices}
+              </Link>
+              <Link 
+                href="/explore" 
+                className="rounded-full px-8 py-3 text-sm font-medium text-gray-700 ring-1 ring-gray-300 hover:text-gray-900 hover:ring-gray-400 transition-all"
+              >
+                {t.home.hero.launchpadPlatform} →
               </Link>
             </div>
           </div>
@@ -161,6 +173,33 @@ export default function HomePage() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* LAUNCHPAD Section */}
+      <section className="py-24 lg:py-32">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-4xl text-center">
+            <div className="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full text-sm font-medium mb-8 shadow-sm">
+              <span className="h-2 w-2 bg-green-500 rounded-full animate-pulse"></span>
+              {t.home.launchpad.badge}
+            </div>
+            <h2 className="text-5xl sm:text-6xl font-extrabold tracking-tighter mb-6">
+              <span className="bg-gradient-to-b from-gray-600 to-black bg-clip-text text-transparent">
+                {t.home.launchpad.title}
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
+              {t.home.launchpad.description}
+            </p>
+            <Link 
+              href="/explore" 
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-3 text-white font-medium shadow-lg hover:shadow-xl transition-all"
+            >
+              {t.home.launchpad.cta}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>

@@ -87,12 +87,6 @@
         ]
       }
     },
-    "launchpad": {
-      "badge": "NUEVO SERVICIO",
-      "title": "Presentamos LAUNCHPAD",
-      "description": "Herramientas de distribución profesional para artistas independientes excepcionales, sellos y editores. Lleva tu música a más de 100 plataformas y registra composiciones con PROs en todo el mundo.",
-      "cta": "Explorar LAUNCHPAD"
-    },
     "stats": {
       "totalStreams": "Streams Totales",
       "streamingRevenue": "Ingresos por Streaming Cobrados",
@@ -124,109 +118,192 @@
       "contactTeam": "Contacta a Nuestro Equipo"
     }
   },
-  "explore": {
-    "title": "Explora LAUNCHPAD",
-    "subtitle": "Herramientas de distribución profesional diseñadas exclusivamente para artistas, sellos y editores establecidos. Lleva tu música a más de 100 plataformas en todo el mundo manteniendo el control completo.",
-    "applyAccess": "Solicitar Acceso",
-    "clientLogin": "Portal de Clientes",
-    "whatIs": {
-      "title": "¿Qué es LAUNCHPAD?",
-      "description": "LAUNCHPAD es nuestra plataforma de distribución exclusiva diseñada para artistas y sellos profesionales. A diferencia de los distribuidores tradicionales, ofrecemos servicio personalizado, reportes transparentes y apoyo estratégico para ayudarte a maximizar el potencial de tu música."
-    },
-    "features": {
-      "fast": {
-        "title": "Distribución Rápida",
-        "subtitle": "Publica tu música en todas las plataformas principales rápidamente",
-        "items": [
-          "Procesamiento en 24-48 horas",
-          "Entrega directa a plataformas",
-          "Soporte prioritario",
-          "Opciones de lanzamiento urgente"
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: enero 2025",
+    "sections": {
+      "1": {
+        "title": "1. Información que Recopilamos",
+        "content1": "En Rocket Science Music Group & Rocket Science Music Publishing Group LLC (\"nosotros\" o \"nuestra\"), recopilamos información que nos proporciona directamente cuando visita nuestro sitio web, envía una solicitud o se pone en contacto con nosotros.",
+        "content2": "Los tipos de información que podemos recopilar incluyen:",
+        "list": [
+          "Información personal (nombre, dirección de correo electrónico, número de teléfono)",
+          "Información profesional (nombre artístico, nombre de la empresa, rol)",
+          "Contenido que envía (enlaces de música, perfiles de redes sociales)",
+          "Comunicaciones que nos envía",
+          "Datos de uso y análisis cuando visita nuestro sitio web"
         ]
       },
-      "control": {
-        "title": "Control Completo",
-        "subtitle": "Mantén la propiedad mientras alcanzas audiencias globales",
-        "items": [
-          "Conserva el 100% de tus derechos",
-          "Establece tu propia estrategia de lanzamiento",
-          "Control flexible de precios",
-          "Gestión de territorios"
+      "2": {
+        "title": "2. Cómo Usamos Su Información",
+        "content": "Usamos la información que recopilamos para:",
+        "list": [
+          "Revisar y responder a sus solicitudes y consultas",
+          "Comunicarnos con usted sobre nuestros servicios",
+          "Enviarle actualizaciones y comunicaciones de marketing (con su consentimiento)",
+          "Mejorar nuestro sitio web y servicios",
+          "Cumplir con obligaciones legales",
+          "Proteger nuestros derechos y prevenir fraudes"
         ]
       },
-      "analytics": {
-        "title": "Analíticas Transparentes",
-        "subtitle": "Datos en tiempo real y reportes detallados",
-        "items": [
-          "Estadísticas de streaming en vivo",
-          "Desglose de ingresos",
-          "Seguimiento de playlists",
-          "Estados de cuenta mensuales"
-        ]
-      }
-    },
-    "platforms": {
-      "title": "Cobertura Global de Plataformas",
-      "subtitle": "Tu música disponible donde sea que tus fans estén escuchando",
-      "more": "Más de 100 plataformas adicionales incluyendo servicios regionales y especializados"
-    },
-    "pricing": {
-      "badge": "PRECIOS TRANSPARENTES",
-      "title": "Modelo de Comisión Simple",
-      "subtitle": "Sin tarifas iniciales, sin costos ocultos. Solo tenemos éxito cuando tú tienes éxito.",
-      "annual": "Tarifas de suscripción anual",
-      "perRelease": "Cargos por lanzamiento",
-      "codes": "Códigos UPC/ISRC",
-      "total": "Tu costo inicial total"
-    },
-    "whoUsesIt": {
-      "title": "¿Quién Usa LAUNCHPAD?",
-      "subtitle": "Diseñado para profesionales de la música que exigen excelencia",
-      "labels": {
-        "title": "Sellos Independientes",
-        "subtitle": "Gestiona múltiples artistas con herramientas de nivel empresarial",
-        "features": [
-          "Gestión de catálogo multi-artista",
-          "Herramientas de carga y edición masiva",
-          "Creación de cuentas de sub-sello",
-          "Reportes consolidados"
+      "3": {
+        "title": "3. Compartir Información",
+        "content": "No vendemos, comerciamos ni alquilamos su información personal a terceros. Podemos compartir su información solo en las siguientes circunstancias:",
+        "list": [
+          "Con su consentimiento o bajo su dirección",
+          "Con proveedores de servicios que nos ayudan a operar nuestro sitio web y realizar nuestro negocio",
+          "Cuando lo requiera la ley o para responder a un proceso legal",
+          "Para proteger nuestros derechos, privacidad, seguridad o propiedad",
+          "En relación con una transferencia comercial, fusión o adquisición"
         ]
       },
-      "artists": {
-        "title": "Artistas Establecidos",
-        "subtitle": "Toma el control de tu carrera con herramientas profesionales",
-        "features": [
-          "Acceso directo a plataformas",
-          "Panel de analíticas en tiempo real",
-          "Herramientas de marketing y promoción",
-          "Soporte al cliente prioritario"
-        ]
-      }
-    },
-    "gettingStarted": {
-      "title": "Cómo Empezar",
-      "subtitle": "Únete a LAUNCHPAD en tres simples pasos",
-      "steps": [
-        {
-          "title": "Solicita Acceso",
-          "description": "Envía tu solicitud con enlaces a tu música y antecedentes profesionales."
-        },
-        {
-          "title": "Obtén la Aprobación",
-          "description": "Nuestro equipo revisa tu envío para asegurar que LAUNCHPAD sea la opción correcta."
-        },
-        {
-          "title": "Comienza a Distribuir",
-          "description": "Accede a tu panel y comienza a distribuir tu música en todo el mundo."
+      "4": {
+        "title": "4. Seguridad de Datos",
+        "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger su información personal contra el acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro, y no podemos garantizar seguridad absoluta."
+      },
+      "5": {
+        "title": "5. Sus Derechos y Opciones",
+        "content1": "Tiene ciertos derechos con respecto a su información personal:",
+        "list": [
+          "Acceder y recibir una copia de su información personal",
+          "Corregir o actualizar información inexacta",
+          "Solicitar la eliminación de su información (sujeto a requisitos legales)",
+          "Optar por no recibir comunicaciones de marketing",
+          "Retirar el consentimiento cuando corresponda"
+        ],
+        "content2": "Para ejercer estos derechos, contáctenos utilizando la información a continuación."
+      },
+      "6": {
+        "title": "6. Cookies y Seguimiento",
+        "content1": "Utilizamos cookies y tecnologías de seguimiento similares para recopilar información sobre sus actividades de navegación en nuestro sitio web. Las cookies son pequeños archivos de datos almacenados en su dispositivo. Puede controlar las cookies a través de la configuración de su navegador, pero deshabilitarlas puede limitar su capacidad para usar ciertas funciones de nuestro sitio web.",
+        "content2": "Podemos usar servicios de análisis como Google Analytics para ayudarnos a comprender cómo los visitantes usan nuestro sitio web."
+      },
+      "7": {
+        "title": "7. Enlaces a Terceros",
+        "content": "Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad o el contenido de estos sitios. Le recomendamos que revise las políticas de privacidad de cualquier sitio de terceros que visite."
+      },
+      "8": {
+        "title": "8. Privacidad de Menores",
+        "content": "Nuestros servicios no están dirigidos a personas menores de 18 años. No recopilamos intencionalmente información personal de niños menores de 18 años. Si nos damos cuenta de que hemos recopilado información de un menor de 18 años, tomaremos medidas para eliminarla."
+      },
+      "9": {
+        "title": "9. Transferencias Internacionales de Datos",
+        "content": "Su información puede ser transferida y procesada en países distintos al suyo, incluidos los Estados Unidos. Estos países pueden tener leyes de protección de datos diferentes a las de su jurisdicción. Al usar nuestros servicios, usted consiente dichas transferencias."
+      },
+      "10": {
+        "title": "10. Retención de Datos",
+        "content": "Conservamos su información personal durante el tiempo necesario para cumplir con los propósitos descritos en esta Política de Privacidad, a menos que la ley requiera o permita un período de retención más largo."
+      },
+      "11": {
+        "title": "11. Derechos de Privacidad de California",
+        "content": "Los residentes de California tienen derechos adicionales bajo la Ley de Privacidad del Consumidor de California (CCPA), incluido el derecho a saber qué información personal recopilamos, el derecho a eliminar información personal y el derecho a optar por no participar en la venta de información personal (lo cual no hacemos)."
+      },
+      "12": {
+        "title": "12. Cambios a Esta Política",
+        "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Le notificaremos sobre cambios materiales publicando la nueva política en esta página y actualizando la fecha de \"Última actualización\". Su uso continuado de nuestros servicios después de los cambios constituye la aceptación de la política modificada."
+      },
+      "13": {
+        "title": "13. Contáctenos",
+        "content": "Si tiene preguntas sobre esta Política de Privacidad o nuestras prácticas de datos, contáctenos en:",
+        "contactInfo": {
+          "company": "Rocket Science LLC",
+          "email": "Correo: privacy@rocktscience.com",
+          "location": "Miami, Florida"
         }
-      ]
-    },
-    "cta": {
-      "title": "¿Listo para tomar el control?",
-      "subtitle": "Únete al grupo exclusivo de artistas y sellos que usan LAUNCHPAD.",
-      "apply": "Solicitar LAUNCHPAD",
-      "contact": "Contacta a Nuestro Equipo"
+      }
     }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: enero 2025",
+    "sections": {
+      "1": {
+        "title": "1. Aceptación de Términos",
+        "content": "Al acceder o usar el sitio web de Rocket Science LLC & Rocket Science Music Publishing Group LLC (\"Compañía\", \"nosotros\" o \"nuestro\"), usted acepta estar sujeto a estos Términos de Servicio (\"Términos\"). Si no está de acuerdo con estos Términos, no puede usar nuestro sitio web."
+      },
+      "2": {
+        "title": "2. Uso del Sitio Web",
+        "content1": "Nuestro sitio web proporciona información sobre nuestros servicios de la industria musical, incluidas operaciones de sello discográfico, desarrollo de artistas y administración editorial musical. Puede usar nuestro sitio web solo con fines legales.",
+        "content2": "Usted acepta no:",
+        "list": [
+          "Usar nuestro sitio web de cualquier manera que viole las leyes o regulaciones aplicables",
+          "Intentar obtener acceso no autorizado a cualquier parte del sitio web",
+          "Interferir o interrumpir el sitio web o los servidores",
+          "Copiar, reproducir o distribuir contenido del sitio web sin permiso",
+          "Usar sistemas automatizados para acceder al sitio web sin nuestro consentimiento"
+        ]
+      },
+      "3": {
+        "title": "3. Propiedad Intelectual",
+        "content1": "Todo el contenido de este sitio web, incluidos texto, gráficos, logotipos, imágenes, clips de audio y software, es propiedad de Rocket Science LLC o sus proveedores de contenido y está protegido por las leyes internacionales de derechos de autor. La compilación de todo el contenido en este sitio web es nuestra propiedad exclusiva.",
+        "content2": "Las marcas comerciales, logotipos y marcas de servicio que se muestran en este sitio web son marcas registradas y no registradas de la Compañía o terceros. Nada en este sitio web debe interpretarse como una concesión de licencia o derecho para usar cualquier marca sin nuestro permiso por escrito."
+      },
+      "4": {
+        "title": "4. Envíos de Solicitudes",
+        "content": "Cuando envía una solicitud a través de nuestro sitio web:",
+        "list": [
+          "Usted declara que toda la información proporcionada es precisa y completa",
+          "Nos otorga permiso para revisar sus materiales enviados",
+          "Entiende que el envío no garantiza aceptación o ninguna relación comercial",
+          "Nos reservamos el derecho de rechazar cualquier solicitud a nuestra sola discreción",
+          "No estamos obligados a proporcionar comentarios sobre los envíos"
+        ]
+      },
+      "5": {
+        "title": "5. Información de Contacto",
+        "content": "Si proporciona información de contacto a través de nuestro sitio web, usted consiente que lo contactemos con respecto a su consulta o envío. Manejaremos su información de acuerdo con nuestra Política de Privacidad."
+      },
+      "6": {
+        "title": "6. Descargos de Responsabilidad",
+        "noWarranties": "Sin Garantías: Este sitio web se proporciona \"tal cual\" sin representaciones o garantías, expresas o implícitas. No hacemos representaciones o garantías con respecto a la precisión o integridad del contenido en este sitio web.",
+        "noAdvice": "Sin Asesoramiento Profesional: La información en este sitio web es solo para fines informativos generales y no debe considerarse asesoramiento profesional sobre asuntos legales, financieros o profesionales.",
+        "externalLinks": "Enlaces Externos: Nuestro sitio web puede contener enlaces a sitios web de terceros. No tenemos control sobre el contenido de estos sitios y no asumimos ninguna responsabilidad por ellos."
+      },
+      "7": {
+        "title": "7. Limitación de Responsabilidad",
+        "content1": "EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, LA COMPAÑÍA NO SERÁ RESPONSABLE DE NINGÚN DAÑO INDIRECTO, INCIDENTAL, ESPECIAL, CONSECUENTE O PUNITIVO, O CUALQUIER PÉRDIDA DE GANANCIAS O INGRESOS, QUE SURJAN DE O ESTÉN RELACIONADOS CON SU USO DEL SITIO WEB.",
+        "content2": "En ningún caso nuestra responsabilidad total excederá la cantidad de cien dólares ($100)."
+      },
+      "8": {
+        "title": "8. Indemnización",
+        "content": "Usted acepta indemnizar y eximir de responsabilidad a la Compañía, sus afiliados, funcionarios, directores, empleados y agentes de cualquier reclamo, daño, pérdida, responsabilidad y gasto que surja de su uso del sitio web o violación de estos Términos."
+      },
+      "9": {
+        "title": "9. Privacidad",
+        "content": "Su uso de nuestro sitio web también se rige por nuestra Política de Privacidad. Revise nuestra Política de Privacidad, que explica cómo recopilamos, usamos y protegemos su información."
+      },
+      "10": {
+        "title": "10. Ley Aplicable",
+        "content": "Estos Términos se regirán e interpretarán de acuerdo con las leyes del Estado de Florida, sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier disputa que surja de estos Términos se resolverá exclusivamente en los tribunales del Condado de Miami-Dade, Florida."
+      },
+      "11": {
+        "title": "11. Cambios a los Términos",
+        "content": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. Notificaremos a los usuarios sobre cambios materiales publicando los nuevos Términos en esta página y actualizando la fecha de \"Última actualización\". Su uso continuado del sitio web después de los cambios constituye la aceptación de los Términos modificados."
+      },
+      "12": {
+        "title": "12. Divisibilidad",
+        "content": "Si alguna disposición de estos Términos se considera inválida o inaplicable, las disposiciones restantes continuarán en pleno vigor y efecto."
+      },
+      "13": {
+        "title": "13. Información de Contacto",
+        "content": "Para preguntas sobre estos Términos de Servicio, contáctenos en:",
+        "contactInfo": {
+          "company": "Rocket Science LLC",
+          "email": "Correo: legal@rocktscience.com",
+          "location": "Miami, Florida"
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "Desarrollo artístico para talentos excepcionales. Servicios de distribución y editorial para artistas y sellos establecidos.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "copyright": "© 2025 Rocket Science LLC & Rocket Science Music Publishing Group LLC. Todos los derechos reservados."
   },
   "apply": {
     "title": "Envía Tu Solicitud",
@@ -251,99 +328,6 @@
       "errorMessage": "Hubo un error al enviar tu solicitud. Por favor intenta de nuevo.",
       "disclaimer": "Al enviar este formulario, aceptas que nuestro equipo evaluará tu presentación para determinar el mejor camino a seguir. Te contactaremos si identificamos una oportunidad potencial."
     }
-  },
-  "login": {
-    "title": "Portal de Clientes",
-    "subtitle": "Accede a tus lanzamientos y analíticas",
-    "email": "CORREO ELECTRÓNICO",
-    "password": "CONTRASEÑA",
-    "signIn": "INICIAR SESIÓN",
-    "signingIn": "INICIANDO SESIÓN...",
-    "noAccount": "¿No tienes una cuenta?",
-    "applyAccess": "Solicita acceso",
-    "forgotPassword": "¿Olvidaste tu contraseña?"
-  },
-  "dashboard": {
-    "welcome": "Bienvenido de vuelta",
-    "overview": "Resumen",
-    "releases": "Lanzamientos",
-    "recordings": "Grabaciones",
-    "recordingsSubtitle": "Gestiona tus lanzamientos musicales y distribución",
-    "compositions": "Composiciones",
-    "analytics": "Analíticas",
-    "payments": "Pagos",
-    "earnings": "Ganancias",
-    "contracts": "Contratos",
-    "users": "Usuarios",
-    "settings": "Configuración",
-    "signOut": "Cerrar Sesión",
-    "loading": "Cargando...",
-    "newRelease": "Nuevo Lanzamiento",
-    "newReleaseDesc": "Envía un nuevo lanzamiento para distribución",
-    "registerComposition": "Registrar Composición",
-    "registerCompositionDesc": "Envía una nueva composición para editorial",
-    "viewAnalytics": "Ver Analíticas",
-    "viewAnalyticsDesc": "Rastrea tu rendimiento y ganancias",
-    "recentActivity": "Actividad Reciente",
-    "noActivity": "No hay actividad reciente para mostrar.",
-    "confirmDelete": "¿Estás seguro de que quieres eliminar esta grabación?",
-    "searchRecordings": "Buscar grabaciones...",
-    "allStatus": "Todos los Estados",
-    "draft": "Borrador",
-    "submitted": "Enviado",
-    "approved": "Aprobado",
-    "released": "Lanzado",
-    "title": "Título",
-    "artist": "Artista",
-    "user": "Usuario",
-    "releaseDate": "Fecha de Lanzamiento",
-    "actions": "Acciones",
-    "noRecordings": "No se encontraron grabaciones",
-    "nav": {
-      "overview": "Resumen",
-      "releases": "Lanzamientos",
-      "compositions": "Composiciones",
-      "analytics": "Analíticas",
-      "payments": "Pagos",
-      "account": "Cuenta"
-    },
-    "stats": {
-      "totalReleases": "Total de Lanzamientos",
-      "totalStreams": "Total de Reproducciones",
-      "totalRevenue": "Ingresos Totales",
-      "lastPayment": "Último Pago"
-    },
-    "noReleases": "Aún no hay lanzamientos",
-    "createRelease": "Crear Primer Lanzamiento",
-    "release": "Lanzamiento",
-    "status": {
-      "released": "Lanzado",
-      "pending": "Pendiente",
-      "draft": "Borrador"
-    },
-    "view": "Ver",
-    "viewAllReleases": "Ver todos los lanzamientos",
-    "revenueChart": {
-      "title": "Tendencia de Ingresos",
-      "noData": "No hay datos de ingresos disponibles"
-    },
-    "topTracks": {
-      "title": "Canciones Más Populares",
-      "noData": "No hay datos de canciones disponibles",
-      "track": "Canción",
-      "streams": "Reproducciones",
-      "revenue": "Ingresos"
-    },
-    "filters": {
-      "all": "Todo",
-      "thisMonth": "Este Mes",
-      "lastMonth": "Mes Pasado",
-      "thisYear": "Este Año",
-      "custom": "Rango Personalizado"
-    }
-  },
-  "common": {
-    "loading": "Cargando..."
   },
   "contact": {
     "title": "Ponte en Contacto",
@@ -370,148 +354,31 @@
       "errorMessage": "Hubo un error al enviar tu mensaje. Por favor intenta de nuevo."
     }
   },
-  "footer": {
-    "description": "Desarrollo artístico para talentos excepcionales. Servicios de distribución y editorial para artistas y sellos establecidos.",
-    "quickLinks": "Enlaces Rápidos",
-    "services": "Servicios",
-    "contact": "Contacto",
-    "legal": "Legal",
-    "privacyPolicy": "Política de Privacidad",
-    "termsOfService": "Términos de Servicio",
-    "copyright": "© 2025 Rocket Science Music Group & Rocket Science Music Publishing Group LLC. Todos los derechos reservados."
+  "common": {
+    "loading": "Cargando..."
   },
-  "privacy": {
-    "title": "Política de Privacidad",
-    "lastUpdated": "Última actualización",
-    "sections": {
-      "intro": "En Rocket Science LLC, tomamos su privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información.",
-      "dataCollection": "Información que Recopilamos",
-      "dataUse": "Cómo Usamos su Información",
-      "dataSharing": "Cómo Compartimos su Información",
-      "dataSecurity": "Seguridad de Datos",
-      "yourRights": "Sus Derechos",
-      "contact": "Contáctenos"
-    }
-  },
-  "terms": {
-    "title": "Términos de Servicio",
-    "subtitle": "Términos de Distribución Digital",
-    "lastUpdated": "Última actualización",
-    "acceptanceText": "Al enviar su Contenido, el Cliente acepta estos términos y condiciones."
-  },
-  "admin": {
-    "portal": "PORTAL ADMINISTRATIVO",
-    "dashboard": {
-      "title": "Panel Administrativo",
-      "overview": "Resumen",
-      "users": "Usuarios",
-      "releases": "Lanzamientos",
-      "payments": "Pagos",
-      "contracts": "Contratos",
-      "analytics": "Analíticas",
-      "settings": "Configuración",
-      "totalUsers": "Total de Usuarios",
-      "activeClients": "Clientes activos",
-      "totalReleases": "Total de Lanzamientos",
-      "distributedTracks": "Pistas distribuidas",
-      "totalRevenue": "Ingresos Totales",
-      "allTime": "Todo el tiempo",
-      "pendingPayments": "Pagos Pendientes",
-      "toBeProcessed": "Por procesar",
-      "recentActivity": "Actividad Reciente",
-      "allUsers": "Todos los Usuarios",
-      "addUser": "Agregar Usuario",
-      "allReleases": "Todos los Lanzamientos",
-      "export": "Exportar",
-      "search": "Buscar...",
-      "name": "Nombre",
-      "entity": "Entidad",
-      "services": "Servicios",
-      "joined": "Se unió",
-      "actions": "Acciones",
-      "release": "Lanzamiento",
-      "artist": "Artista",
-      "releaseDate": "Fecha de Lanzamiento",
-      "status": "Estado",
-      "platforms": "Plataformas",
-      "live": "En vivo",
-      "pending": "Pendiente",
-      "activityFeed": "Feed de actividad próximamente..."
-    },
-    "userForm": {
-      "createUser": "Crear Nuevo Usuario",
-      "email": "Correo Electrónico",
-      "password": "Contraseña",
-      "generate": "Generar",
-      "fullName": "Nombre Completo",
-      "entityName": "Nombre de Entidad",
-      "services": "Servicios",
-      "cancel": "Cancelar",
-      "create": "Crear Usuario",
-      "successMessage": "¡Usuario creado exitosamente!",
-      "errorMessage": "Error al crear usuario"
-    }
-  },
-  "backToReleases": "Volver a Lanzamientos",
-  "newRelease": "Nuevo Lanzamiento",
-  "releaseInformation": "Información del Lanzamiento",
-  "releaseTitle": "Título del Lanzamiento",
-  "primaryArtist": "Artista Principal",
-  "label": "Sello",
-  "releaseDate": "Fecha de Lanzamiento",
-  "genre": "Género",
-  "selectGenre": "Seleccionar Género",
-  "language": "Idioma",
-  "selectLanguage": "Seleccionar Idioma",
-  "explicitContent": "Contenido Explícito",
-  "coverArtwork": "Portada",
-  "uploadImage": "Subir Imagen",
-  "imageRequirements": "3000x3000px, JPG o PNG, máx 10MB",
-  "tracks": "Pistas",
-  "addTrack": "Agregar Pista",
-  "track": "Pista",
-  "trackTitle": "Título de la Pista",
-  "trackArtist": "Artista de la Pista",
-  "duration": "Duración",
-  "isrc": "ISRC",
-  "cancel": "Cancelar",
-  "saveRelease": "Guardar Lanzamiento",
-  "saving": "Guardando...",
-  "backToCompositions": "Volver a Composiciones",
-  "registerComposition": "Registrar Composición",
-  "compositionInformation": "Información de la Composición",
-  "compositionTitle": "Título de la Composición",
-  "iswc": "ISWC",
-  "optional": "Opcional",
-  "iswcHelp": "Código Internacional Normalizado para Obras Musicales",
-  "writers": "Escritores",
-  "addWriter": "Agregar Escritor",
-  "writerName": "Nombre del Escritor",
-  "writerNamePlaceholder": "Ingrese el nombre completo del escritor",
-  "writersHelp": "Agregue todos los escritores/compositores que contribuyeron a esta composición",
-  "additionalInfo": "Información Adicional",
-  "compositionRegistrationInfo1": "Una vez registrada, su composición será enviada a las organizaciones de derechos de ejecución (PRO) para la recaudación de regalías.",
-  "compositionRegistrationInfo2": "Asegúrese de que toda la información del escritor sea precisa, ya que se utilizará para la distribución de regalías.",
-  "compositionRegistrationInfo3": "Se le notificará una vez que se complete el registro de su composición.",
-  "registering": "Registrando...",
-  "saveSuccess": "Configuración guardada exitosamente",
-  "saveError": "Error al guardar configuración",
-  "settingsSubtitle": "Administra tu configuración de cuenta",
-  "profileInfo": "Información del Perfil",
-  "fullName": "Nombre Completo",
-  "email": "Correo Electrónico",
-  "phoneNumber": "Número de Teléfono",
-  "companyName": "Nombre de Empresa",
-  "optional": "Opcional",
-  "viewAll": "Ver Todo",
-  "contractsDesc": "Administra tus contratos",
-  "paymentInfo": "Información de Pago",
-  "taxId": "ID Fiscal",
-  "taxIdPlaceholder": "Ingresa ID fiscal",
-  "paymentNote": "Los detalles de pago se usarán para pagos de regalías",
-  "security": "Seguridad",
-  "changePassword": "Cambiar Contraseña",
-  "enable2fa": "Habilitar Autenticación de Dos Factores",
-  "saving": "Guardando...",
-  "saveChanges": "Guardar Cambios"
+  "dashboard": {
+    "welcome": "Bienvenido de vuelta",
+    "overview": "Resumen",
+    "releases": "Lanzamientos",
+    "recordings": "Grabaciones",
+    "recordingsSubtitle": "Gestiona tus lanzamientos musicales y distribución",
+    "compositions": "Composiciones",
+    "analytics": "Analíticas",
+    "payments": "Pagos",
+    "earnings": "Ganancias",
+    "contracts": "Contratos",
+    "users": "Usuarios",
+    "settings": "Configuración",
+    "signOut": "Cerrar Sesión",
+    "loading": "Cargando...",
+    "newRelease": "Nuevo Lanzamiento",
+    "newReleaseDesc": "Envía un nuevo lanzamiento para distribución",
+    "registerComposition": "Registrar Composición",
+    "registerCompositionDesc": "Envía una nueva composición para editorial",
+    "viewAnalytics": "Ver Analíticas",
+    "viewAnalyticsDesc": "Rastrea tu rendimiento y ganancias",
+    "recentActivity": "Actividad Reciente",
+    "noActivity": "No hay actividad reciente para mostrar."
+  }
 }

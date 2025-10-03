@@ -1,66 +1,93 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
-import { Play, Pause } from 'lucide-react';
+import { Play, Pause, X } from 'lucide-react';
 
 interface WaveformProps {
   audioFile: File;
   onDurationChange?: (duration: string) => void;
   onAnalysis?: (isHiRes: boolean, isLossless: boolean) => void;
+  onRemove?: () => void;
 }
 
-export default function Waveform({ audioFile, onDurationChange, onAnalysis }: WaveformProps) {
+export default function Waveform({ audioFile, onDurationChange, onAnalysis, onRemove }: WaveformProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const animationRef = useRef<number>();
+  const audioContextRef = useRef<AudioContext | null>(null);
+  
   const [loading, setLoading] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [audioUrl, setAudioUrl] = useState<string>('');
+  const [waveformData, setWaveformData] = useState<Float32Array | null>(null);
+  const [audioInfo, setAudioInfo] = useState<{
+    sampleRate: number;
+    bitDepth: string;
+    channels: number;
+    isHiRes: boolean;
+    isLossless: boolean;
+  } | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!audioFile || !canvasRef.current) return;
+    if (!audioFile) return;
 
-    const canvas = canvasRef.current;
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
+    const initializeAudio = async () => {
+      setError(null);
+      setLoading(true);
 
-    // Create audio context
-    const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-    
-    // Create object URL for audio playback
-    const url = URL.createObjectURL(audioFile);
-    setAudioUrl(url);
-    
-    // Read the file
-    const reader = new FileReader();
-    
-    reader.onload = async (e) => {
       try {
-        const arrayBuffer = e.target?.result as ArrayBuffer;
-        const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+        // Create audio context
+        const AudioContext = window.AudioContext || (window as any).webkitAudioContext;
+        if (audioContextRef.current) {
+          audioContextRef.current.close();
+        }
+        audioContextRef.current = new AudioContext();
+        
+        // Create object URL for audio playback
+        const url = URL.createObjectURL(audioFile);
+        setAudioUrl(url);
+        
+        // Read file as array buffer
+        const arrayBuffer = await audioFile.arrayBuffer();
+        
+        // Decode audio data
+        const audioBuffer = await audioContextRef.current.decodeAudioData(arrayBuffer);
         
         // Get audio properties
         const sampleRate = audioBuffer.sampleRate;
         const numberOfChannels = audioBuffer.numberOfChannels;
         const duration = audioBuffer.duration;
         
-        // Determine if Hi-Res or Lossless
-        // Hi-Res: 24-bit with sample rates of 88.2, 96, 176.4, or 192 kHz
-        // Note: Bit depth detection requires more complex analysis
-        const hiResSampleRates = [88200, 96000, 176400, 192000];
-        const isHiRes = hiResSampleRates.includes(sampleRate);
-        const isLossless = sampleRate >= 44100; // Simplified check
+        // Determine audio quality
+        const isHiRes = sampleRate >= 88200 && numberOfChannels === 2;
+        const isLossless = (sampleRate >= 44100 && numberOfChannels === 2) || isHiRes;
+        
+        // Estimate bit depth
+        let bitDepth = '16-bit';
+        if (isHiRes || (audioFile.size / (sampleRate * numberOfChannels * duration) > 2.5)) {
+          bitDepth = '24-bit';
+        }
+        
+        setAudioInfo({
+          sampleRate,
+          bitDepth,
+          channels: numberOfChannels,
+          isHiRes,
+          isLossless
+        });
         
         if (onAnalysis) {
           onAnalysis(isHiRes, isLossless);
         }
         
-        // Format duration
-        const minutes = Math.floor(duration / 60);
-        const seconds = Math.floor(duration % 60);
-        const formattedDuration = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        // Format and set duration
+        const totalSeconds = Math.floor(duration);
+        const minutes = Math.floor(totalSeconds / 60);
+        const seconds = totalSeconds % 60;
+        const formattedDuration = `${totalSeconds}`; // Store as seconds string
         
         setDuration(duration);
         
@@ -68,89 +95,113 @@ export default function Waveform({ audioFile, onDurationChange, onAnalysis }: Wa
           onDurationChange(formattedDuration);
         }
         
-        // Draw waveform
-        drawWaveform(audioBuffer, canvas, ctx);
+        // Get waveform data
+        const channelData = audioBuffer.getChannelData(0);
+        setWaveformData(channelData);
+        
+        // Draw initial waveform
+        if (canvasRef.current) {
+          const canvas = canvasRef.current;
+          const ctx = canvas.getContext('2d');
+          if (ctx) {
+            drawWaveform(channelData, canvas, ctx);
+          }
+        }
+        
         setLoading(false);
-      } catch (error) {
-        console.error('Error processing audio:', error);
+      } catch (err) {
+        console.error('Error processing audio:', err);
+        setError('Error processing audio file. Please ensure it\'s a valid audio file.');
         setLoading(false);
       }
     };
-    
-    reader.readAsArrayBuffer(audioFile);
+
+    initializeAudio();
     
     return () => {
-      audioContext.close();
-      if (url) URL.revokeObjectURL(url);
-      if (animationRef.current) cancelAnimationFrame(animationRef.current);
+      if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
+        audioContextRef.current.close();
+      }
+      if (audioUrl) {
+        URL.revokeObjectURL(audioUrl);
+      }
+      if (animationRef.current) {
+        cancelAnimationFrame(animationRef.current);
+      }
     };
-  }, [audioFile, onDurationChange, onAnalysis]);
+  }, [audioFile]);
 
-  const drawWaveform = (audioBuffer: AudioBuffer, canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D) => {
+  const drawWaveform = (
+    channelData: Float32Array, 
+    canvas: HTMLCanvasElement, 
+    ctx: CanvasRenderingContext2D,
+    progress: number = 0
+  ) => {
     const width = canvas.width;
     const height = canvas.height;
-    const channelData = audioBuffer.getChannelData(0);
-    const step = Math.ceil(channelData.length / width);
-    const amp = height / 2;
     
     // Clear canvas
     ctx.clearRect(0, 0, width, height);
     
     // Draw background
-    ctx.fillStyle = '#f3f4f6';
+    ctx.fillStyle = '#f9fafb';
     ctx.fillRect(0, 0, width, height);
     
-    // Draw waveform
-    ctx.beginPath();
-    ctx.moveTo(0, amp);
+    // Calculate samples per pixel
+    const samplesPerPixel = Math.floor(channelData.length / width);
+    const amplitude = height / 2;
     
-    for (let i = 0; i < width; i++) {
+    // Draw waveform
+    for (let x = 0; x < width; x++) {
       let min = 1.0;
       let max = -1.0;
       
-      for (let j = 0; j < step; j++) {
-        const datum = channelData[(i * step) + j];
-        if (datum < min) min = datum;
-        if (datum > max) max = datum;
+// Find min/max in this pixel's sample range
+      for (let i = 0; i < samplesPerPixel; i++) {
+        const sampleIndex = x * samplesPerPixel + i;
+        if (sampleIndex < channelData.length) {
+          const sample = channelData[sampleIndex];
+          if (sample < min) min = sample;
+          if (sample > max) max = sample;
+        }
       }
       
-      // Draw vertical lines for waveform
-      ctx.strokeStyle = '#6b7280';
-      ctx.lineWidth = 1;
+      // Draw vertical line for this pixel
+      const barHeight = Math.max(1, (max - min) * amplitude);
+      const barY = (1 + min) * amplitude;
+      
+      // Color based on progress
+      if (x / width <= progress) {
+        ctx.fillStyle = '#111827';
+      } else {
+        ctx.fillStyle = '#d1d5db';
+      }
+      
+      ctx.fillRect(x, barY, 1, barHeight);
+    }
+    
+    // Draw progress line
+    if (progress > 0) {
+      const progressX = width * progress;
+      ctx.strokeStyle = '#ef4444';
+      ctx.lineWidth = 2;
       ctx.beginPath();
-      ctx.moveTo(i, (1 + min) * amp);
-      ctx.lineTo(i, (1 + max) * amp);
+      ctx.moveTo(progressX, 0);
+      ctx.lineTo(progressX, height);
       ctx.stroke();
     }
   };
 
-  const drawProgress = () => {
-    if (!canvasRef.current || !audioRef.current) return;
-    
-    const canvas = canvasRef.current;
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
-    
-    const progress = audioRef.current.currentTime / audioRef.current.duration;
-    const progressWidth = canvas.width * progress;
-    
-    // Draw progress overlay
-    ctx.fillStyle = 'rgba(17, 24, 39, 0.1)';
-    ctx.fillRect(0, 0, progressWidth, canvas.height);
-    
-    // Draw progress line
-    ctx.strokeStyle = '#111827';
-    ctx.lineWidth = 2;
-    ctx.beginPath();
-    ctx.moveTo(progressWidth, 0);
-    ctx.lineTo(progressWidth, canvas.height);
-    ctx.stroke();
-  };
-
   const updateProgress = () => {
-    if (audioRef.current) {
+    if (audioRef.current && canvasRef.current && waveformData) {
+      const progress = audioRef.current.currentTime / audioRef.current.duration;
       setCurrentTime(audioRef.current.currentTime);
-      drawProgress();
+      
+      const canvas = canvasRef.current;
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
+        drawWaveform(waveformData, canvas, ctx, progress);
+      }
       
       if (isPlaying) {
         animationRef.current = requestAnimationFrame(updateProgress);
@@ -175,7 +226,7 @@ export default function Waveform({ audioFile, onDurationChange, onAnalysis }: Wa
   };
 
   const handleCanvasClick = (e: React.MouseEvent<HTMLCanvasElement>) => {
-    if (!canvasRef.current || !audioRef.current) return;
+    if (!canvasRef.current || !audioRef.current || !waveformData) return;
     
     const rect = canvasRef.current.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -183,7 +234,12 @@ export default function Waveform({ audioFile, onDurationChange, onAnalysis }: Wa
     
     audioRef.current.currentTime = progress * duration;
     setCurrentTime(audioRef.current.currentTime);
-    drawProgress();
+    
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    if (ctx) {
+      drawWaveform(waveformData, canvas, ctx, progress);
+    }
   };
 
   const formatTime = (time: number) => {
@@ -192,55 +248,115 @@ export default function Waveform({ audioFile, onDurationChange, onAnalysis }: Wa
     return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
   };
 
+  if (error) {
+    return (
+      <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+        <p className="text-red-600 text-sm">{error}</p>
+      </div>
+    );
+  }
+
   return (
-    <div className="space-y-2">
-      <div className="relative w-full h-20 bg-gray-100 rounded-lg overflow-hidden group">
-        {loading && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-50">
-            <div className="text-sm text-gray-500">Processing audio...</div>
-          </div>
-        )}
-        
-        <canvas
-          ref={canvasRef}
-          width={800}
-          height={80}
-          onClick={handleCanvasClick}
-          className="w-full h-full cursor-pointer"
-          style={{ display: loading ? 'none' : 'block' }}
-        />
-        
-        {!loading && (
+    <div className="space-y-3">
+      <div className="flex justify-between items-center">
+        <label className="block text-sm font-medium text-gray-700">
+          Audio File
+        </label>
+        {onRemove && (
           <button
             type="button"
-            onClick={togglePlayback}
-            className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-white rounded-full shadow-md hover:shadow-lg transition-shadow"
+            onClick={onRemove}
+            className="text-red-500 hover:text-red-700 transition"
           >
-            {isPlaying ? (
-              <Pause className="w-4 h-4 text-gray-900" />
-            ) : (
-              <Play className="w-4 h-4 text-gray-900" />
-            )}
+            <X className="w-4 h-4" />
           </button>
         )}
       </div>
       
-      {!loading && (
-        <div className="flex justify-between text-xs text-gray-500">
-          <span>{formatTime(currentTime)}</span>
-          <span>{formatTime(duration)}</span>
+      <div className="relative w-full bg-gray-50 rounded-lg overflow-hidden border border-gray-200">
+        {loading ? (
+          <div className="h-24 flex items-center justify-center">
+            <div className="flex items-center space-x-2 text-gray-500">
+              <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
+              <span className="text-sm">Processing audio...</span>
+            </div>
+          </div>
+        ) : (
+          <div className="relative">
+            <canvas
+              ref={canvasRef}
+              width={800}
+              height={96}
+              onClick={handleCanvasClick}
+              className="w-full h-24 cursor-pointer block"
+            />
+            
+            <button
+              type="button"
+              onClick={togglePlayback}
+              className="absolute left-3 top-1/2 -translate-y-1/2 p-2.5 bg-white rounded-full shadow-lg hover:shadow-xl transition-all border border-gray-200"
+            >
+              {isPlaying ? (
+                <Pause className="w-4 h-4 text-gray-900" />
+              ) : (
+                <Play className="w-4 h-4 text-gray-900 ml-0.5" />
+              )}
+            </button>
+            
+            <div className="absolute right-3 top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow-sm border border-gray-200">
+              <span className="text-xs font-medium text-gray-700">
+                {formatTime(currentTime)} / {formatTime(duration)}
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
+      
+      {audioInfo && (
+        <div className="flex items-center justify-between text-xs text-gray-600">
+          <div className="flex items-center gap-4">
+            <span>{(audioInfo.sampleRate / 1000).toFixed(1)} kHz</span>
+            <span>{audioInfo.bitDepth}</span>
+            <span>{audioInfo.channels === 2 ? 'Stereo' : 'Mono'}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            {audioInfo.isHiRes && (
+              <span className="px-2 py-1 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded text-xs font-semibold">
+                Hi-Res
+              </span>
+            )}
+            {!audioInfo.isHiRes && audioInfo.isLossless && (
+              <span className="px-2 py-1 bg-gray-600 text-white rounded text-xs font-semibold">
+                Lossless
+              </span>
+            )}
+          </div>
         </div>
       )}
       
-      <audio
-        ref={audioRef}
-        src={audioUrl}
-        onEnded={() => {
-          setIsPlaying(false);
-          setCurrentTime(0);
-        }}
-        style={{ display: 'none' }}
-      />
+      {audioUrl && (
+        <audio
+          ref={audioRef}
+          src={audioUrl}
+          onTimeUpdate={() => {
+            if (audioRef.current && !isPlaying) {
+              setCurrentTime(audioRef.current.currentTime);
+            }
+          }}
+          onEnded={() => {
+            setIsPlaying(false);
+            setCurrentTime(0);
+            if (canvasRef.current && waveformData) {
+              const canvas = canvasRef.current;
+              const ctx = canvas.getContext('2d');
+              if (ctx) {
+                drawWaveform(waveformData, canvas, ctx, 0);
+              }
+            }
+          }}
+          className="hidden"
+        />
+      )}
     </div>
   );
 }
