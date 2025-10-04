@@ -124,6 +124,114 @@
       "contactTeam": "Contacta a Nuestro Equipo"
     }
   },
+  "explore": {
+    "title": "LAUNCHPAD",
+    "subtitle": "Plataforma profesional de distribución y editorial musical para artistas independientes, sellos y editores",
+    "applyAccess": "Solicitar Acceso",
+    "clientLogin": "Inicio de Sesión de Cliente",
+    "whatIs": {
+      "title": "¿Qué es LAUNCHPAD?",
+      "description": "LAUNCHPAD es nuestra plataforma profesional de distribución musical y editorial diseñada para artistas independientes, sellos y editores que quieren control completo sobre su música y carrera."
+    },
+    "features": {
+      "fast": {
+        "title": "Rápido y Simple",
+        "subtitle": "Haz que tu música esté en vivo rápidamente",
+        "items": [
+          "Sube una vez, distribuye en todas partes",
+          "Moderación de 24-48 horas",
+          "Códigos ISRC y UPC instantáneos",
+          "Entrega automatizada a DSPs"
+        ]
+      },
+      "control": {
+        "title": "Control Total",
+        "subtitle": "Eres dueño de todo",
+        "items": [
+          "Mantén el 100% de tus derechos",
+          "Pagos directos al artista",
+          "Reportes transparentes",
+          "Cancela en cualquier momento"
+        ]
+      },
+      "analytics": {
+        "title": "Analíticas Reales",
+        "subtitle": "Datos que importan",
+        "items": [
+          "Datos de streaming en tiempo real",
+          "Seguimiento de ingresos",
+          "Información de audiencia",
+          "Rendimiento de plataforma"
+        ]
+      }
+    },
+    "platforms": {
+      "title": "Distribución Global",
+      "subtitle": "Tu música en más de 100 plataformas en todo el mundo",
+      "more": "Más de 90 plataformas adicionales incluyendo servicios regionales y especializados"
+    },
+    "pricing": {
+      "badge": "OFERTA POR TIEMPO LIMITADO",
+      "title": "Precios Simples y Transparentes",
+      "subtitle": "Sin tarifas ocultas. Sin sorpresas. Mantén el 100% de tus regalías.",
+      "annual": "Tarifa de Suscripción Anual",
+      "perRelease": "Tarifa por Lanzamiento",
+      "codes": "Códigos ISRC/UPC",
+      "total": "Tu Costo Total"
+    },
+    "whoUsesIt": {
+      "title": "¿Quién Usa LAUNCHPAD?",
+      "subtitle": "Construido para profesionales que valoran la independencia y el control",
+      "labels": {
+        "title": "Sellos Independientes",
+        "subtitle": "Gestión completa de catálogo y distribución",
+        "features": [
+          "Cuentas ilimitadas de artistas",
+          "Herramientas de carga masiva",
+          "Opciones de marca blanca",
+          "Soporte prioritario"
+        ]
+      },
+      "artists": {
+        "title": "Artistas Profesionales",
+        "subtitle": "Toma el control de tu música y carrera",
+        "features": [
+          "Distribución directa a todas las plataformas",
+          "Administración editorial",
+          "Herramientas de marketing",
+          "Funciones de interacción con fans"
+        ]
+      }
+    },
+    "gettingStarted": {
+      "title": "Comenzar es Fácil",
+      "subtitle": "Únete a LAUNCHPAD en minutos y comienza a distribuir tu música hoy",
+      "steps": [
+        {
+          "title": "Solicita Acceso",
+          "description": "Envía tu solicitud para revisión. Evaluaremos tu catálogo y aprobaremos a artistas y sellos calificados dentro de 24 horas."
+        },
+        {
+          "title": "Configura Tu Cuenta",
+          "description": "Completa tu perfil, agrega tu información de pago y configura los ajustes de tu sello o artista."
+        },
+        {
+          "title": "Sube Tu Música",
+          "description": "Sube tus pistas, portadas y metadatos. Nuestro sistema maneja todo lo demás automáticamente."
+        },
+        {
+          "title": "En Vivo Mundialmente",
+          "description": "Tu música se lanza en más de 100 plataformas. Rastrea todo en tiempo real a través de tu panel."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para tomar el control?",
+      "subtitle": "Únete al futuro de la distribución musical independiente",
+      "apply": "Solicitar LAUNCHPAD",
+      "contact": "Contactar a Nuestro Equipo"
+    }
+  },
   "privacy": {
     "title": "Política de Privacidad",
     "lastUpdated": "Última actualización: enero 2025",
@@ -347,37 +455,6 @@
     "applyAccess": "Solicitar Acceso",
     "errorMessage": "Correo o contraseña inválidos",
     "successMessage": "Sesión iniciada exitosamente"
-  },
-  "explore": {
-    "title": "LAUNCHPAD",
-    "subtitle": "Distribución profesional para artistas y sellos independientes",
-    "description": "Haz que tu música llegue a más de 100 plataformas de streaming en todo el mundo. Registra composiciones con PROs globalmente. Rastrea tus ganancias con analíticas transparentes.",
-    "features": {
-      "distribution": {
-        "title": "Distribución Global",
-        "description": "Lanza tu música en Spotify, Apple Music, YouTube Music y más de 100 plataformas en todo el mundo"
-      },
-      "publishing": {
-        "title": "Administración Editorial",
-        "description": "Registra composiciones con PROs globalmente y cobra todas tus regalías"
-      },
-      "analytics": {
-        "title": "Analíticas en Tiempo Real",
-        "description": "Rastrea streams, ganancias e información de audiencia con nuestro panel completo"
-      },
-      "support": {
-        "title": "Soporte Profesional",
-        "description": "Equipo dedicado para ayudarte a maximizar el potencial de tu música"
-      }
-    },
-    "cta": {
-      "title": "¿Listo para lanzar tu carrera musical?",
-      "apply": "Aplicar Ahora",
-      "learnMore": "Aprender Más"
-    },
-    "applyAccess": "Solicitar Acceso",
-    "loginToAccess": "Iniciar Sesión para Acceder",
-    "clientLogin": "Inicio de Sesión de Cliente"
   },
   "contact": {
     "title": "Ponte en Contacto",
@@ -737,6 +814,7 @@
   "userManagement": {
     "title": "Gestión de Usuarios",
     "subtitle": "Gestiona las cuentas de usuario y permisos",
+    "subtitleAlt": "Gestiona los usuarios de la plataforma y su acceso",
     "addUser": "Agregar Usuario",
     "allUsers": "Todos los Usuarios",
     "admins": "Administradores",
@@ -747,7 +825,11 @@
     "sort": "Ordenar por",
     "name": "Nombre",
     "email": "Correo Electrónico",
+    "user": "Usuario",
+    "entity": "Entidad",
     "role": "Rol",
+    "services": "Servicios",
+    "joined": "Se unió",
     "status": "Estado",
     "createdAt": "Creado En",
     "lastLogin": "Último Inicio de Sesión",
@@ -761,7 +843,10 @@
     "changeRole": "Cambiar Rol",
     "permissions": "Permisos",
     "assignViewer": "Asignar Espectador",
-    "removeViewer": "Eliminar Espectador"
+    "removeViewer": "Eliminar Espectador",
+    "admin": "admin",
+    "client": "cliente",
+    "viewer": "espectador"
   },
   "settingsPage": {
     "title": "Configuración",

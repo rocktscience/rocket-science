@@ -124,6 +124,114 @@
       "contactTeam": "Contact Our Team"
     }
   },
+  "explore": {
+    "title": "LAUNCHPAD",
+    "subtitle": "Professional music distribution and publishing platform for independent artists, labels, and publishers",
+    "applyAccess": "Apply for Access",
+    "clientLogin": "Client Login",
+    "whatIs": {
+      "title": "What is LAUNCHPAD?",
+      "description": "LAUNCHPAD is our professional music distribution and publishing platform designed for independent artists, labels, and publishers who want complete control over their music and career."
+    },
+    "features": {
+      "fast": {
+        "title": "Fast & Simple",
+        "subtitle": "Get your music live quickly",
+        "items": [
+          "Upload once, distribute everywhere",
+          "24-48 hour moderation",
+          "Instant ISRC & UPC codes",
+          "Automated delivery to DSPs"
+        ]
+      },
+      "control": {
+        "title": "Full Control",
+        "subtitle": "You own everything",
+        "items": [
+          "Keep 100% of your rights",
+          "Direct artist payments",
+          "Transparent reporting",
+          "Cancel anytime"
+        ]
+      },
+      "analytics": {
+        "title": "Real Analytics",
+        "subtitle": "Data that matters",
+        "items": [
+          "Real-time streaming data",
+          "Revenue tracking",
+          "Audience insights",
+          "Platform performance"
+        ]
+      }
+    },
+    "platforms": {
+      "title": "Global Distribution",
+      "subtitle": "Your music on 100+ platforms worldwide",
+      "more": "Plus 90+ more platforms including regional and specialized services"
+    },
+    "pricing": {
+      "badge": "LIMITED TIME OFFER",
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "No hidden fees. No surprises. Keep 100% of your royalties.",
+      "annual": "Annual Subscription Fee",
+      "perRelease": "Per Release Fee",
+      "codes": "ISRC/UPC Codes",
+      "total": "Your Total Cost"
+    },
+    "whoUsesIt": {
+      "title": "Who Uses LAUNCHPAD?",
+      "subtitle": "Built for professionals who value independence and control",
+      "labels": {
+        "title": "Independent Labels",
+        "subtitle": "Complete catalog management and distribution",
+        "features": [
+          "Unlimited artist accounts",
+          "Bulk upload tools",
+          "White-label options",
+          "Priority support"
+        ]
+      },
+      "artists": {
+        "title": "Professional Artists",
+        "subtitle": "Take control of your music and career",
+        "features": [
+          "Direct distribution to all platforms",
+          "Publishing administration",
+          "Marketing tools",
+          "Fan engagement features"
+        ]
+      }
+    },
+    "gettingStarted": {
+      "title": "Getting Started is Easy",
+      "subtitle": "Join LAUNCHPAD in minutes and start distributing your music today",
+      "steps": [
+        {
+          "title": "Apply for Access",
+          "description": "Submit your application for review. We'll evaluate your catalog and approve qualified artists and labels within 24 hours."
+        },
+        {
+          "title": "Set Up Your Account",
+          "description": "Complete your profile, add your payment information, and configure your label or artist settings."
+        },
+        {
+          "title": "Upload Your Music",
+          "description": "Upload your tracks, artwork, and metadata. Our system handles everything else automatically."
+        },
+        {
+          "title": "Go Live Worldwide",
+          "description": "Your music goes live on 100+ platforms. Track everything in real-time through your dashboard."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to take control?",
+      "subtitle": "Join the future of independent music distribution",
+      "apply": "Apply for LAUNCHPAD",
+      "contact": "Contact Our Team"
+    }
+  },
   "privacy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: January 2025",
@@ -347,37 +455,6 @@
     "applyAccess": "Apply for Access",
     "errorMessage": "Invalid email or password",
     "successMessage": "Successfully signed in"
-  },
-  "explore": {
-    "title": "LAUNCHPAD",
-    "subtitle": "Professional distribution for independent artists & labels",
-    "description": "Get your music on 100+ streaming platforms worldwide. Register compositions with PROs globally. Track your earnings with transparent analytics.",
-    "features": {
-      "distribution": {
-        "title": "Global Distribution",
-        "description": "Release your music on Spotify, Apple Music, YouTube Music, and 100+ platforms worldwide"
-      },
-      "publishing": {
-        "title": "Publishing Administration",
-        "description": "Register compositions with PROs globally and collect all your royalties"
-      },
-      "analytics": {
-        "title": "Real-Time Analytics",
-        "description": "Track streams, earnings, and audience insights with our comprehensive dashboard"
-      },
-      "support": {
-        "title": "Professional Support",
-        "description": "Dedicated team to help you maximize your music's potential"
-      }
-    },
-    "cta": {
-      "title": "Ready to launch your music career?",
-      "apply": "Apply Now",
-      "learnMore": "Learn More"
-    },
-    "applyAccess": "Apply for Access",
-    "loginToAccess": "Login to Access",
-    "clientLogin": "Client Login"
   },
   "contact": {
     "title": "Get in Touch",
@@ -737,6 +814,7 @@
   "userManagement": {
     "title": "User Management",
     "subtitle": "Manage user accounts and permissions",
+    "subtitleAlt": "Manage platform users and their access",
     "addUser": "Add User",
     "allUsers": "All Users",
     "admins": "Admins",
@@ -747,7 +825,11 @@
     "sort": "Sort by",
     "name": "Name",
     "email": "Email",
+    "user": "User",
+    "entity": "Entity",
     "role": "Role",
+    "services": "Services",
+    "joined": "Joined",
     "status": "Status",
     "createdAt": "Created At",
     "lastLogin": "Last Login",
@@ -761,7 +843,10 @@
     "changeRole": "Change Role",
     "permissions": "Permissions",
     "assignViewer": "Assign Viewer",
-    "removeViewer": "Remove Viewer"
+    "removeViewer": "Remove Viewer",
+    "admin": "admin",
+    "client": "client",
+    "viewer": "viewer"
   },
   "settingsPage": {
     "title": "Settings",
